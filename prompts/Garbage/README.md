@@ -1,0 +1,2 @@
+## Garbage Usage
+If we're testing new prompts or making edits to existing prompts, I don't suggest deleting any scraps or major changes to an edited/new prompt file. Instead it would be better to store it in this garbage folder in case we want to use it's contents later.
