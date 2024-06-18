@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chameleon Integrated Testing Environment</title>
+        <link rel="stylesheet" type="text/css" href="/assets/app.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+    </head>
+    <body>
+        <header>
+            <a href="/"><h1 style="margin-left: 15px; margin-top: 5px; display: inline; float: left;">chameleon</h1></a>
+            <div style="display: inline; float: right;">
+                <a href="/dashboard"><button>Dashboard</button></a>
+                <a href="/app"><button class="bt-act">New Chat</button></a>
+            </div>
+        </header>
+        <main>
+            <div class="contentwrapper">
+                <div class="mainwrapper">
+                    <div class="textbox" id="text" contenteditable="true">
+                        Chameleons, with their remarkable ability to change color, captivate the imagination with their enigmatic charm. These reptiles, found primarily in Madagascar and parts of Africa, are famed for their unique adaptation, using chromatophores in their skin to blend seamlessly into their surroundings or communicate mood and social status. Beyond their mesmerizing color-changing prowess, chameleons possess specialized eyes that can rotate independently, granting them a panoramic view of their environment. Their prehensile tails aid in climbing and balance, while their long, sticky tongues swiftly snatch prey, often insects, with precision. Despite their widespread fascination, chameleons face threats from habitat loss and the exotic pet trade, highlighting the importance of conservation efforts to preserve these captivating creatures.
+                    </div>
+                    <div class="controls">
+                        <button class="bt-act" id="submit" onclick="submitText()">Submit</button>
+                        <button id="redo">Redo</button>
+                        <button id="reset">Reset</button>
+                        &nbsp
+                        <div style="display: none;" class="loader" id="loading"></div>
+                    </div>
+                </div>
+                <div class="settings">
+
+                    <label for="modelSelect"><strong>Model</strong></label>
+                    <select name="model" id="modelSelect">
+                        <option value="gemini">Gemini Pro 1</option>
+                        <option value="gpt">GPT-4</option>
+                        <option value="mixtral">Mixtral7b</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="algorithmSelect"><strong>Algorithm</strong></label>
+                    <select name="algorithm" id="algorithmSelect">
+                        <option value="itpar">Iterative Paraphrasing</option>
+                        <option value="itconabs">Iterative Content Abstraction</option>
+                        <option value="reinlearn">CML-001</option>
+                        <option value="tempvar">Dynamic Temperature</option>
+                    </select>
+
+                    <div>
+                        <div>
+                            <h4 style="display: inline; float: left;">AI Threshold</h4>
+                            <p style="display: inline; float: right; margin-top: 20px;"><span id="threval">15</span>%</p>
+                        </div>
+                        <div class="slidecontainer">
+                            <input type="range" min="0" max="100" value="15" class="slider" id="thre">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <h4 style="display: inline; float: left;">Temperature</h4>
+                            <p style="display: inline; float: right; margin-top: 20px;"><span id="tempval">0.95</span></p>
+                        </div>
+                        <div class="slidecontainer">
+                            <input type="range" min="0" max="100" value="95" class="slider" id="temp">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <h4 style="display: inline; float: left;">Max-Iterations</h4>
+                            <p style="display: inline; float: right; margin-top: 20px;"><span id="iterval">2</span></p>
+                        </div>
+                        <div class="slidecontainer">
+                            <input type="range" min="0" max="25" value="2" class="slider" id="iter">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <h4 style="display: inline; float: left;">Max-Duration</h4>
+                            <p style="display: inline; float: right; margin-top: 20px;"><span id="duraval">120</span>s</p>
+                        </div>
+                        <div class="slidecontainer">
+                            <input type="range" min="0" max="240" value="120" class="slider" id="dura">
+                        </div>
+                    </div>
+
+                    <br><br><br>
+
+                    <div class="status">
+                        <div class="item">
+                            <h4>Detectability</h4>
+                            <p><span id="iterval1">100%</span></p>
+                        </div>
+                        <div class="item">
+                            <h4>Iteration</h4>
+                            <p><span id="iterval2">1</span></p>
+                        </div>
+                        <div class="item" style="margin-bottom: -15px;">
+                            <h4>Time Elapsed</h4>
+                            <p><span id="iterval3">0</span>s</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+        <script src="{{ url_for('static', filename='app.js') }}"></script>
+    </body>
+</html>

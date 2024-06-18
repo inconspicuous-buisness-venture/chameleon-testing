@@ -1,1 +1,0 @@
-insert prompt here with "[text]" where you want the user inputted text to be and run /src/index.js (you can edit the test interest there)
