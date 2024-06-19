@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from model import ModelAPIs
-
+from model import gemini_request
 app = Flask(__name__)
 
 @app.route('/')
@@ -24,7 +23,7 @@ def submit():
     selected_algorithm = data['algorithm']
     
     
-    response = ModelAPIs.gemini_request(temperature_value, duration_value, text_content, prompt_content)
+    response = gemini_request(temperature_value, duration_value, text_content, prompt_content)
     
     return jsonify(response)
 
