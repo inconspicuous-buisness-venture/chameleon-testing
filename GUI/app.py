@@ -7,10 +7,6 @@ app = Flask(__name__)
 def index():
     return render_template('main.html')
 
-@app.route('/app')
-def application():
-    return render_template('app.html')
-
 @app.route('/submit', methods=['POST'])
 def submit():
     data = request.json
@@ -22,7 +18,6 @@ def submit():
     prompt_content = data['prompt']
     selected_model = data['model']
     selected_algorithm = data['algorithm']
-    
     
     response = ModelAPIs.gemini_request(temperature_value, duration_value, text_content, prompt_content)
     
