@@ -7,17 +7,19 @@ When we want to review/test a seemingly good prompt we should make an issue for 
 
 ## Folder/File structure
 
-- `[/src/index.js](/src/index.js)` - This is the script to run which uses the prompt.txt to get AI results.
+### CLI
 
-- `[/src/prompt.txt](/src/prompt.txt)` - Here is the hot prompt file which is given to the AI model (Gemini Pro for now).
+- [CLI/src/index.js](CLI/src/index.js) - This is the script to run which uses the prompt.txt to get AI results.
 
-- `[/prompts/Temp/](/prompts/Temp/)` - Folder explained in its README
+- [CLI/src/prompt.txt](CLI/src/prompt.txt) - Here is the hot prompt file which is given to the AI model (Gemini Pro for now).
 
-- `[/prompts/Garbage/](/prompts/Garbage/)` - Folder explained in it's README
+- [CLI/prompts/Temp/](CLI/prompts/Temp/) - Folder explained in its README
+
+- [CLI/prompts/Garbage/](CLI/prompts/Garbage/) - Folder explained in it's README
 
 <br>
 
-- `[/notes.md](notes.md)` - Just notes you can add when testing prompts for others to see
+- [/notes.md](notes.md) - Just notes you can add when testing prompts for others to see
 
 
 ### Config Files

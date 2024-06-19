@@ -18,7 +18,6 @@ def submit():
     selected_model = data['model']
     selected_algorithm = data['algorithm']
     
-    
     response = gemini_request(temperature_value, duration_value, text_content, prompt_content)
     
     return jsonify(response)
