@@ -20,7 +20,7 @@ body {
 
 h1 {
     font-family: bright-retro;
-    font-size: 50px;
+    font-size: 64px;
     margin: 0;
 }
 
@@ -64,7 +64,7 @@ input[type=reset], input[type=submit], [type=button] {
 }
 
 .bt-act {
-    background-color: #00BF63;
+    background-color: #D34A24;
     color: white;
 }
 
@@ -101,12 +101,15 @@ option {
 
 .textbox {
     border: 2px solid #2C2D30;
-    margin: 10px;
+    margin: 20px;
     border-radius: 10px;
     padding: 25px;
     height: 70vh;
     font-size: 18px;
     overflow-y: scroll;
+    overflow-wrap: anywhere;
+    width: 50%;
+    display: table-cell;
 }
 
 .settings {
@@ -144,13 +147,8 @@ option {
     height: 5px;
     border-radius: 5px;
     border: 2px solid #2C2D30;
-    opacity: 0.8;
     -webkit-transition: .2s;
     transition-duration: .2s;
-}
-
-.slider:hover {
-    opacity: 1;
 }
 
 .slider::-webkit-slider-thumb {
@@ -159,7 +157,7 @@ option {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #00BF63;
+    background: #D34A24;
     cursor: pointer;
 }
 
@@ -167,8 +165,16 @@ option {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #00BF63;
+    background: #D34A24;
     cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb:hover {
+    background: #992800;
+}
+
+.slider::-moz-range-thumb {
+    background: #992800;
 }
 
 .status {
@@ -192,11 +198,41 @@ a {
     color: #2C2D30;
 }
 
+.left-rectangle,
+.right-rectangle {
+    margin-top: 20px;
+    flex-grow: 1;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.color-bar {
+    flex-grow: 1;
+}
+
+.red {
+    background-color: #FFAF00; /* Red */
+}
+
+.yellow {
+    background-color: #D34A24; /* Yellow */
+}
+
+.green {
+    background-color: #992800; /* Green */
+}
+
+.blue {
+    background-color: #3C7F72; /* Blue */
+}
+
+
 .loader {
-    border-top: 8px solid #FF3131;
-    border-right: 8px solid #FF914D;
-    border-bottom: 8px solid #00BF63;
-    border-left: 8px solid #38B6FF;
+    border-top: 8px solid #FFAF00;
+    border-right: 8px solid #D34A24;
+    border-bottom: 8px solid #992800;
+    border-left: 8px solid #3C7F72;
     
     border-radius: 50%;
     width: 24px;

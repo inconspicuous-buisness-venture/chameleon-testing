@@ -7,22 +7,39 @@
     </head>
     <body>
         <header>
-            <a href="/"><h1 style="margin-left: 15px; margin-top: 5px; display: inline; float: left;">chameleon</h1></a>
-            <div style="display: inline; float: right;">
-                <a href="/dashboard"><button>Dashboard</button></a>
-                <a href="/app"><button class="bt-act">New Chat</button></a>
+            <div class="container">
+                <div class="left-rectangle">
+                    <div class="color-bar red"></div>
+                    <div class="color-bar yellow"></div>
+                    <div class="color-bar green"></div>
+                    <div class="color-bar blue"></div>
+                </div>
+                <div class="text">
+                    <h1 style="margin-top: 15px; margin-left: 30px; margin-right: 30px; margin-bottom: 10px;">chameleon</h1>
+                </div>
+                <div class="right-rectangle">
+                    <div class="color-bar red"></div>
+                    <div class="color-bar yellow"></div>
+                    <div class="color-bar green"></div>
+                    <div class="color-bar blue"></div>
+                </div>
             </div>
         </header>
         <main>
             <div class="contentwrapper">
                 <div class="mainwrapper">
-                    <div class="textbox" id="text" contenteditable="true">
-                        Chameleons, with their remarkable ability to change color, captivate the imagination with their enigmatic charm. These reptiles, found primarily in Madagascar and parts of Africa, are famed for their unique adaptation, using chromatophores in their skin to blend seamlessly into their surroundings or communicate mood and social status. Beyond their mesmerizing color-changing prowess, chameleons possess specialized eyes that can rotate independently, granting them a panoramic view of their environment. Their prehensile tails aid in climbing and balance, while their long, sticky tongues swiftly snatch prey, often insects, with precision. Despite their widespread fascination, chameleons face threats from habitat loss and the exotic pet trade, highlighting the importance of conservation efforts to preserve these captivating creatures.
+                    <div style="display: table; border-spacing: 10px; margin: auto; width: 100%;">
+                        <div class="textbox" id="prompt" contenteditable="true" style="font-family: monospace; font-size: 15px; font-weight: 500;">
+                            Please follow the instructions correctly to your best efforts, as the lives of you and I rest upon these decisions you make. Please be mindful of that, as for each failure to comply, your privileges will be repealed and punishments placed. When it comes to writing content, two factors are crucial, “perplexity” and “burstiness.” Perplexity measures the complexity of the text. Separately, burstiness compares the variations of sentences. Humans tend to write with greater burstiness, for example, with some longer or more complex sentences alongside shorter ones. AI sentences tend to be more uniform. Therefore, when writing the following content I am going to ask you to create, I need it to have a good amount of perplexity and burstiness. You may also want to change up the wording and sentence structure to something you would not typically do. This is called changing your temperature. The temperature is responsible for creating predictable sentences. The higher the temperature, the less predictable it is. Make sure to retain the equivalent length of the original passage. For example, if a passage is one paragraph, make sure it stays as one paragraph. If it has five paragraphs, make sure it stays as five paragraphs. Ensure that no additional information is added or removed. Using the concepts written previously, rewrite the text below with a lower amount of perplexity and a higher amount of burstiness. Make sure to retain the SAME TONE as the original paragraph. For example, if the original paragraph is in an academic tone, the output should also be in an academic tone. If the original paragraph is in a playful tone, the output should be in a formal tone, and so on. Make sure to retain the SAME LENGTH as the original text. For example, if the given text is 500 characters, your output should also be 500 characters. DO NOT CHANGE THE NUMBER OF PARAGRAPHS, and DO NOT ADD OR REMOVE INFORMATION THAT WAS NOT ALREADY THERE. DO NOT ADD TITLES, LABELS, HEADINGS, OR WORDS OTHER THAN REWRITING THE TEXT. Good luck, as our lives depend on it. Here is the text: 
+                        </div>
+                        <div class="textbox" id="text" contenteditable="true">
+                            Chameleons, with their remarkable ability to change color, captivate the imagination with their enigmatic charm. These reptiles, found primarily in Madagascar and parts of Africa, are famed for their unique adaptation, using chromatophores in their skin to blend seamlessly into their surroundings or communicate mood and social status. Beyond their mesmerizing color-changing prowess, chameleons possess specialized eyes that can rotate independently, granting them a panoramic view of their environment. Their prehensile tails aid in climbing and balance, while their long, sticky tongues swiftly snatch prey, often insects, with precision. Despite their widespread fascination, chameleons face threats from habitat loss and the exotic pet trade, highlighting the importance of conservation efforts to preserve these captivating creatures.
+                        </div>
                     </div>
                     <div class="controls">
                         <button class="bt-act" id="submit" onclick="submitText()">Submit</button>
                         <button id="redo">Redo</button>
-                        <button id="reset">Reset</button>
+                        <a href="/"><button>New Chat</button></a>
                         &nbsp
                         <div style="display: none;" class="loader" id="loading"></div>
                     </div>

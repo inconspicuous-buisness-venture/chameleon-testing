@@ -67,6 +67,7 @@ function submitText() {
                     iterationsValue: iterationsValue,
                     durationValue: durationValue,
                     text: document.getElementById("text").innerHTML.slice(25),
+                    prompt: document.getElementById("prompt").innerHTML.slice(25),
                     model: document.getElementById("modelSelect").options[document.getElementById("modelSelect").selectedIndex].value,
                     algorithm: document.getElementById("algorithmSelect").options[document.getElementById("algorithmSelect").selectedIndex].value
                 })

@@ -10,18 +10,15 @@ PROMPT = os.getenv('PROMPT_A')
 # TODO: instead of using a class, these should just be functions. There is no need for a class here.
 class ModelAPIs:
     @staticmethod
-    def gemini_request(temperature_value, duration_value, text_content):
-        """
-        model = genai.GenerativeModel('gemini-1.0-pro-latest')
-        response = model.generate_content(PROMPT + text_content)
-        print(response.text)
+    def gemini_request(temperature_value, duration_value, text_content, prompt_content):
 
-        return {"status": "success", "output": response.text}
-        
-        """
-        
         genai.configure(api_key=GOOGLE_API_KEY)
         
+        print(temperature_value)
+        print(duration_value)
+        print(prompt_content)
+        print(text_content)
+
         generation_config = {
             "temperature": temperature_value,
             "top_p": 1,
@@ -49,7 +46,7 @@ class ModelAPIs:
         ]
         
         model = genai.GenerativeModel(
-            model_name="gemini-1.5-pro-latest",
+            model_name="gemini-1.5-flash",
             # TODO: pycharm is complaining at the generation_config line:
             # Expected type 'GenerationConfig | GenerationConfigDict | GenerationConfig | None',
             # got 'dict[str, int | Any]' instead
@@ -68,14 +65,3 @@ class ModelAPIs:
             print("429: Resource exhausted")
             return {"status": "failure", "output": None}
     
-    @staticmethod
-    def gpt_request(self, temperature_value, duration_value, text_content):
-        print("uhhhh...")
-        
-        return {"status": "fail", "output": "we havent implemented this yet"}
-    
-    @staticmethod
-    def mixtral_request(self, temperature_value, duration_value, text_content):
-        print("uhhhh...")
-        
-        return {"status": "fail", "output": "we havent implemented this yet"}
