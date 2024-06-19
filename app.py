@@ -6,10 +6,6 @@ app = Flask(__name__)
 def index():
     return render_template('main.html')
 
-@app.route('/app')
-def application():
-    return render_template('app.html')
-
 @app.route('/submit', methods=['POST'])
 def submit():
     data = request.json
