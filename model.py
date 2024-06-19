@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
-PROMPT = os.getenv('PROMPT_A')
 
 def gemini_request(temperature_value, duration_value, text_content, prompt_content):
     genai.configure(api_key=GOOGLE_API_KEY)
@@ -50,7 +49,7 @@ def gemini_request(temperature_value, duration_value, text_content, prompt_conte
     convo = model.start_chat()
     
     try:
-        message = PROMPT + text_content + prompt_content
+        message =  prompt_content + text_content
         convo.send_message(message)
         print(convo.last.text)
         return {"status": "success", "output": convo.last.text}
