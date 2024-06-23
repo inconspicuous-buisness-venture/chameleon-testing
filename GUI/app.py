@@ -1,5 +1,7 @@
 from flask import Flask, render_template, request, jsonify
-from model import gemini_request
+from model import *
+from tools import *
+
 app = Flask(__name__)
 
 @app.route('/')
@@ -19,7 +21,10 @@ def submit():
     selected_algorithm = data['algorithm']
     
     response = gemini_request(temperature_value, duration_value, text_content, prompt_content)
-    
+    detectability = asyncio.run(main(response["output"]))
+
+    response['score'] = detectability
+    print("SCORE: " + str(detectability))
     return jsonify(response)
 
 

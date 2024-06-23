@@ -41,56 +41,70 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
-
-
 function submitText() {
     const thresholdValue = document.querySelector("#thre").value;
     const temperatureValue = document.querySelector("#temp").value / 100;
-    const iterationsValue = document.querySelector("#iter").value;
+    const iterationsValue = parseInt(document.querySelector("#iter").value);
     const durationValue = document.querySelector("#dura").value;
 
     let iterationCount = 0;
 
+    function updateUI(isLoading, newText = '', score = '') {
+        document.getElementById("loading").style.display = isLoading ? "inline-block" : "none";
+        if (newText) {
+            document.getElementById("text").innerHTML = newText;
+        }
+        if (score) {
+            document.getElementById("iterval1").innerHTML = String(score) + "%";
+        }
+        document.getElementById("iterval2").innerHTML = iterationCount;
+    }
+
+    function getFormData() {
+        return {
+            thresholdValue: thresholdValue,
+            temperatureValue: temperatureValue,
+            iterationsValue: iterationsValue,
+            durationValue: durationValue,
+            text: document.getElementById("text").innerHTML.slice(25),
+            prompt: document.getElementById("prompt").innerHTML.slice(25),
+            model: document.getElementById("modelSelect").value,
+            algorithm: document.getElementById("algorithmSelect").value
+        };
+    }
+
+    function handleResponse(data) {
+        console.log(data);
+        if (data.status === "success") {
+            updateUI(false, data.output, data.score);
+        } else {
+            updateUI(false);
+        }
+        iterationCount++;
+        submit();
+    }
+
+    function handleError(error) {
+        console.error('Error:', error);
+        updateUI(false);
+    }
+
     function submit() {
-        
         if (iterationCount < iterationsValue) {
-            document.getElementById("iterval2").innerHTML = iterationCount;
-            document.getElementById("loading").style.display = "inline-block";
+            updateUI(true);
             fetch('/submit', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({
-                    thresholdValue: thresholdValue,
-                    temperatureValue: temperatureValue,
-                    iterationsValue: iterationsValue,
-                    durationValue: durationValue,
-                    text: document.getElementById("text").innerHTML.slice(25),
-                    prompt: document.getElementById("prompt").innerHTML.slice(25),
-                    model: document.getElementById("modelSelect").options[document.getElementById("modelSelect").selectedIndex].value,
-                    algorithm: document.getElementById("algorithmSelect").options[document.getElementById("algorithmSelect").selectedIndex].value
-                })
+                body: JSON.stringify(getFormData())
             })
             .then(response => response.json())
-            .then(data => {
-                console.log(data);
-                if (data.status == "success") {
-                    document.getElementById("text").innerHTML = data.output;
-                    document.getElementById("loading").style.display = "none";
-                    iterationCount++;
-                    submit();
-                } else {
-                    document.getElementById("loading").style.display = "none";
-                    iterationCount++;
-                }
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                document.getElementById("loading").style.display = "none";
-            });
+            .then(handleResponse)
+            .catch(handleError);
         }
     }
 
     submit();
 }
+
