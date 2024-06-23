@@ -108,3 +108,10 @@ function submitText() {
     submit();
 }
 
+function toggleEditor() {
+    if (document.getElementById("prompt").style.display  == 'none') {
+        document.getElementById("prompt").style.display  = 'table-cell';
+    } else {
+        document.getElementById("prompt").style.display  = 'none';
+    };
+}
