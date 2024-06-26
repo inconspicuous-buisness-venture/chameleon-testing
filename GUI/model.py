@@ -41,7 +41,7 @@ def gemini_request(temperature_value, duration_value, text_content, prompt_conte
     ]
     
     model = genai.GenerativeModel(
-        model_name="gemini-1.5-flash",
+        model_name="gemini-1.5-pro",
         generation_config=generation_config,
         safety_settings=safety_settings
     )

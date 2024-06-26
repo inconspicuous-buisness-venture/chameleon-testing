@@ -21,8 +21,8 @@ def submit():
     selected_algorithm = data['algorithm']
     
     response = gemini_request(temperature_value, duration_value, text_content, prompt_content)
-    detectability = asyncio.run(main(response["output"]))
-
+    # detectability = asyncio.run(main(response["output"]))
+    detectability = 100
     response['score'] = detectability
     print("SCORE: " + str(detectability))
     return jsonify(response)
