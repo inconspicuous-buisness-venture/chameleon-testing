@@ -1,31 +1,30 @@
-# Prompt Testing
-Use this repo for any AI prompt edits, testing, creating, etc.
+# Chameleon Testing
 
-- All prompts used and in development should also be stored here for API integration later or future updates-
+Ok so basically we've been moving pretty fast so I made a bunch of notebooks to show the summaries of our information. We can document **existing product research** [here](research.md) for humanizers, and all the elements that are important when measuring reinforcement are contained within a series of notebooks. 
 
-When we want to review/test a seemingly good prompt we should make an issue for each of us to test it & share results to decide if it should be in API iteration
+🌉 **Coherence**: I implemented two different sections of coherence, first testing a series of [basic coherence measurements](coherence/basic/) (none of which worked). 
 
-## Folder/File structure
+- 🔮 **Implementations of BERT for Next Sentence Prediction**: [<kbd>BERT_NSP.ipynb</kbd>](coherence/basic/BERT_NSP.ipynb) [<kbd>BERT_NSP2.ipynb</kbd>](coherence/basic/BERT_NSP2.ipynb)
+- ❓ **Implementations of Perplexity Estimations**: [<kbd>GPT2_PEP.ipynb</kbd>](coherence/basic/GPT2_PEP.ipynb)
+- 🌌 **Latent Semantic Analysis**: [<kbd>LSA.ipynb</kbd>](coherence/basic/LSA.ipynb)
+- 🎲 **Natural Language Inference**: [<kbd>NLI.ipynb</kbd>](coherence/basic/NLI.ipynb)
 
-### CLI
+I then moved towards the [implementation of research papers](coherence/paper/). You can find all of them here:
 
-- [CLI/src/index.js](CLI/src/index.js) - This is the script to run which uses the prompt.txt to get AI results.
+- 📖 **LongWanjuan**: [<kbd>dmr_ttr.ipynb</kbd>](coherence/paper/dmr_ttr.ipynb) [<kbd>Official Implementation</kbd>](https://github.com/OpenLMLab/LongWanjuan)
+- ↗️ **Word2Vec N-Grams**: [<kbd>ngrams.ipynb</kbd>](coherence/paper/ngrams.ipynb) 
 
-- [CLI/src/prompt.txt](CLI/src/prompt.txt) - Here is the hot prompt file which is given to the AI model (Gemini Pro for now).
+I also implemented a few [detection algorithms](detection/), but none of them seemed to work effectively, except for the ROBERTA model from Hugging Face. 
 
-- [CLI/prompts/Temp/](CLI/prompts/Temp/) - Folder explained in its README
-
-- [CLI/prompts/Garbage/](CLI/prompts/Garbage/) - Folder explained in it's README
-
-<br>
-
-- [/notes.md](notes.md) - Just notes you can add when testing prompts for others to see
+- 🎆 **Burstiness**: [<kbd>burstiness.ipynb</kbd>](detection/burstiness.ipynb)
+- 🤯 **Perplexity**: [<kbd>perplexity.ipynb</kbd>](detection/perplexity.ipynb)
+- 🤗 **ROBERTA**: [<kbd>roberta.ipynb</kbd>](detection/roberta.ipynb)
 
 
-### Config Files
-The `package-lock.json` and `package.json` files should be ignored as they're just config files for node.
+However, I then discovered that there are many publically available datasets that are all viable options for fine-tuning (or training our own model), which I can use here: 
 
-## Usage
-write your prompt in `prompt.txt` run `npm install` (you only have to run that once per system) and run the `npm test` command to test the prompt in `prompt.txt`
-
-# TODO/ISSUES
+- https://github.com/iamjr15/Ensemble-AI-Text-Detection
+- https://www.kaggle.com/datasets/sunilthite/llm-detect-ai-generated-text-dataset
+- https://www.kaggle.com/competitions/llm-detect-ai-generated-text/data
+- https://www.kaggle.com/datasets/thedrcat/daigt-v2-train-dataset
+- https://huggingface.co/datasets/aadityaubhat/GPT-wiki-intro
