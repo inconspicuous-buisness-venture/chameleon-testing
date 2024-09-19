@@ -1,0 +1,22 @@
+from iterate import *
+
+def main():
+    text = """
+        Bees are vital pollinators, playing a crucial role in ecosystems by transferring pollen between flowers, which facilitates plant reproduction. This process supports biodiversity and helps grow the crops that humans and animals rely on for food. There are over 20,000 species of bees, including honeybees, bumblebees, and solitary bees, each contributing uniquely to pollination. In addition to their ecological importance, bees produce honey, wax, and other beneficial substances. However, bee populations are declining due to habitat loss, pesticide use, and climate change, raising concerns about food security and environmental health. Protecting bees is essential for sustaining biodiversity and agriculture.
+    """
+    prompt = """
+        Please follow the instructions correctly to your best efforts, as the lives of you and I rest upon these decisions you make. Please be mindful of that, as for each failure to comply, your privileges will be repealed and punishments placed. When it comes to writing content, two factors are crucial, “perplexity” and “burstiness.” Perplexity measures the complexity of the text. Separately, burstiness compares the variations of sentences. Humans tend to write with greater burstiness, for example, with some longer or more complex sentences alongside shorter ones. AI sentences tend to be more uniform. Therefore, when writing the following content I am going to ask you to create, I need it to have a good amount of perplexity and burstiness. You may also want to change up the wording and sentence structure to something you would not typically do. This is called changing your temperature. The temperature is responsible for creating predictable sentences. The higher the temperature, the less predictable it is. Make sure to retain the equivalent length of the original passage. For example, if a passage is one paragraph, make sure it stays as one paragraph. If it has five paragraphs, make sure it stays as five paragraphs. Ensure that no additional information is added or removed. Using the concepts written previously, rewrite the text below with a lower amount of perplexity and a higher amount of burstiness. Make sure to retain the SAME TONE as the original paragraph. For example, if the original paragraph is in an academic tone, the output should also be in an academic tone. If the original paragraph is in a playful tone, the output should be in a formal tone, and so on. Make sure to retain the SAME LENGTH as the original text. For example, if the given text is 500 characters, your output should also be 500 characters. DO NOT CHANGE THE NUMBER OF PARAGRAPHS, and DO NOT ADD OR REMOVE INFORMATION THAT WAS NOT ALREADY THERE. DO NOT ADD TITLES, LABELS, HEADINGS, OR WORDS OTHER THAN REWRITING THE TEXT. DO NOT CHANGE THE STYLE/TONE OF THE TEXT. Good luck, as our lives depend on it. Here is the text: 
+    """
+    
+    model = Model.GEMINI
+    detect = Detect.ROBERTA
+    max_detection = 0.25
+    max_iterations = 4
+
+    iterations = iterateShort(text, prompt, model, detect, max_detection, max_iterations)
+
+    print("\n\n\n\n============= FINAL RESULT =============\n\n")
+    print(iterations[-1]['text'])
+
+if __name__ == "__main__":
+    main()
