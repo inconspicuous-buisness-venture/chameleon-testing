@@ -3,6 +3,7 @@ from enums import *
 from models import *
 from detect import *
 
+
 def iterateShort(text: str, prompt: str, model: Model, detect: Detect, max_detection: float, max_iterations: int = 15) -> List[Dict[str, Union[str, float]]]:
     """
     Iterates through the samples and rewrites the text until the detection score is less than the maximum detection score or the maximum number of iterations is reached.
@@ -30,6 +31,13 @@ def iterateShort(text: str, prompt: str, model: Model, detect: Detect, max_detec
     
     return iterations
 
+
+
+
+
+
+
+
 # TODO FINISH THE FUNCTION BELOW
 # i literally havent even finished it lol
 
@@ -53,6 +61,9 @@ def iterateLong(text: str, prompt: str, model: Model, detect: Detect, max_detect
         iteration_count = 0
 
         while detection_score > max_detection and iteration_count < max_iterations:
+            if paragraph.split(' ').len() < 15:
+                break;
+            
             new_text = generateText(paragraph, prompt, model)
             detection_score = detectAI(new_text, detect)
             split_text[split_text.index(paragraph)] = new_text

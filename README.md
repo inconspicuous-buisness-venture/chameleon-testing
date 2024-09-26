@@ -14,12 +14,11 @@ I then moved towards the [implementation of research papers](coherence/paper/). 
 - 📖 **LongWanjuan**: [<kbd>dmr_ttr.ipynb</kbd>](coherence/paper/dmr_ttr.ipynb) [<kbd>Official Implementation</kbd>](https://github.com/OpenLMLab/LongWanjuan)
 - ↗️ **Word2Vec N-Grams**: [<kbd>ngrams.ipynb</kbd>](coherence/paper/ngrams.ipynb) 
 
-I also implemented a few [detection algorithms](detection/), but none of them seemed to work effectively, except for the ROBERTA model from Hugging Face. 
+**Detection**: I also implemented a few [detection algorithms](detection/), but none of them seemed to work effectively, except for the ROBERTA model from Hugging Face. 
 
 - 🎆 **Burstiness**: [<kbd>burstiness.ipynb</kbd>](detection/burstiness.ipynb)
 - 🤯 **Perplexity**: [<kbd>perplexity.ipynb</kbd>](detection/perplexity.ipynb)
 - 🤗 **ROBERTA**: [<kbd>roberta.ipynb</kbd>](detection/roberta.ipynb)
-
 
 However, I then discovered that there are many publically available datasets that are all viable options for fine-tuning (or training our own model), which I can use here: 
 
@@ -28,3 +27,7 @@ However, I then discovered that there are many publically available datasets tha
 - https://www.kaggle.com/competitions/llm-detect-ai-generated-text/data
 - https://www.kaggle.com/datasets/thedrcat/daigt-v2-train-dataset
 - https://huggingface.co/datasets/aadityaubhat/GPT-wiki-intro
+
+**Tonality**: We will also need to ensure that our model does not go off the rails by making the tone of the text informal. I haven't gotten to that part yet, but if anyone is interested in doing research in this, put the notebooks in [the tonality folder](/tone) and summarize your findings here. 
+
+**Consistency**: Finally, we need to make sure that the inform
