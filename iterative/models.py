@@ -2,10 +2,13 @@ import google.generativeai as genai
 import os
 from dotenv import load_dotenv
 
+from openai import OpenAI
+
 from enums import *
 
 load_dotenv()
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY_2')
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
 def generateText(text: str, prompt: str, model: Model) -> str:
     """
@@ -41,4 +44,18 @@ def gemini(text: str, prompt: str) -> str:
         return convo.last.text
     except:
         print("429: Resource exhausted. Please use a new API Key.")
-    
+
+def gpt4o(text: str, prompt: str) -> str:
+    client = OpenAI()
+
+    completion = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[
+            {
+                "role": "user",
+                "content": text + prompt
+            }
+        ]
+    )
+
+    return completion.choices[0].message;
