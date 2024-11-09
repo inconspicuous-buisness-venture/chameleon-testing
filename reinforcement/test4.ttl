@@ -1,0 +1,250 @@
+@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Path_0_0 a ex:Path ;
+    ex:iteration 0 ;
+    ex:next ex:Token_1_0_0,
+        ex:Token_1_0_1,
+        ex:Token_1_0_2 ;
+    ex:text "Once upon a time" .
+
+ex:Path_1_0 a ex:Path ;
+    ex:iteration 1 ;
+    ex:next ex:Token_2_0_0,
+        ex:Token_2_0_1,
+        ex:Token_2_0_2 ;
+    ex:text "Once upon a time," .
+
+ex:Path_1_1 a ex:Path ;
+    ex:iteration 1 ;
+    ex:next ex:Token_2_1_0,
+        ex:Token_2_1_1,
+        ex:Token_2_1_2 ;
+    ex:text "Once upon a time there" .
+
+ex:Path_1_2 a ex:Path ;
+    ex:iteration 1 ;
+    ex:next ex:Token_2_2_0,
+        ex:Token_2_2_1,
+        ex:Token_2_2_2 ;
+    ex:text "Once upon a time in" .
+
+ex:Path_2_0 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Token_3_0_0,
+        ex:Token_3_0_1,
+        ex:Token_3_0_2 ;
+    ex:text "Once upon a time, there" .
+
+ex:Path_2_1 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Token_3_1_0,
+        ex:Token_3_1_1,
+        ex:Token_3_1_2 ;
+    ex:text "Once upon a time, I" .
+
+ex:Path_2_2 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Token_3_2_0,
+        ex:Token_3_2_1,
+        ex:Token_3_2_2 ;
+    ex:text "Once upon a time, in" .
+
+ex:Path_2_3 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Token_3_3_0,
+        ex:Token_3_3_1,
+        ex:Token_3_3_2 ;
+    ex:text "Once upon a time there was" .
+
+ex:Path_2_4 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Token_3_4_0,
+        ex:Token_3_4_1,
+        ex:Token_3_4_2 ;
+    ex:text "Once upon a time there were" .
+
+ex:Path_2_5 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Token_3_5_0,
+        ex:Token_3_5_1,
+        ex:Token_3_5_2 ;
+    ex:text "Once upon a time there lived" .
+
+ex:Path_2_6 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Token_3_6_0,
+        ex:Token_3_6_1,
+        ex:Token_3_6_2 ;
+    ex:text "Once upon a time in the" .
+
+ex:Path_2_7 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Token_3_7_0,
+        ex:Token_3_7_1,
+        ex:Token_3_7_2 ;
+    ex:text "Once upon a time in a" .
+
+ex:Path_2_8 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Token_3_8_0,
+        ex:Token_3_8_1,
+        ex:Token_3_8_2 ;
+    ex:text "Once upon a time in " .
+
+ex:Token_1_0_0 a ex:Token ;
+    ex:iteration 1 ;
+    ex:text "," .
+
+ex:Token_1_0_1 a ex:Token ;
+    ex:iteration 1 ;
+    ex:text "there" .
+
+ex:Token_1_0_2 a ex:Token ;
+    ex:iteration 1 ;
+    ex:text "in" .
+
+ex:Token_2_0_0 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text "there" .
+
+ex:Token_2_0_1 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text "I" .
+
+ex:Token_2_0_2 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text "in" .
+
+ex:Token_2_1_0 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text "was" .
+
+ex:Token_2_1_1 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text "were" .
+
+ex:Token_2_1_2 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text "lived" .
+
+ex:Token_2_2_0 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text "the" .
+
+ex:Token_2_2_1 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text "a" .
+
+ex:Token_2_2_2 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text "" .
+
+ex:Token_3_0_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "was" .
+
+ex:Token_3_0_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "were" .
+
+ex:Token_3_0_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "lived" .
+
+ex:Token_3_1_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "was" .
+
+ex:Token_3_1_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "had" .
+
+ex:Token_3_1_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "used" .
+
+ex:Token_3_2_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "a" .
+
+ex:Token_3_2_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "the" .
+
+ex:Token_3_2_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "an" .
+
+ex:Token_3_3_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "a" .
+
+ex:Token_3_3_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "an" .
+
+ex:Token_3_3_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "this" .
+
+ex:Token_3_4_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "two" .
+
+ex:Token_3_4_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "three" .
+
+ex:Token_3_4_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "" .
+
+ex:Token_3_5_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "a" .
+
+ex:Token_3_5_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "an" .
+
+ex:Token_3_5_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "in" .
+
+ex:Token_3_6_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "" .
+
+ex:Token_3_6_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "land" .
+
+ex:Token_3_6_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "not" .
+
+ex:Token_3_7_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "land" .
+
+ex:Token_3_7_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "far" .
+
+ex:Token_3_7_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "small" .
+
+ex:Token_3_8_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "201" .
+
+ex:Token_3_8_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "200" .
+
+ex:Token_3_8_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "199" .
+

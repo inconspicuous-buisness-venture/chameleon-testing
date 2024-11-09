@@ -1,0 +1,91 @@
+@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Branch_0_0 a ex:Token ;
+    ex:iteration 0 ;
+    ex:next ex:Branch_1_0_0,
+        ex:Branch_1_0_1,
+        ex:Branch_1_0_2 ;
+    ex:text "Once upon a time in a distant land" .
+
+ex:Branch_1_0 a ex:Token ;
+    ex:iteration 1 ;
+    ex:next ex:Branch_2_0_0,
+        ex:Branch_2_0_1,
+        ex:Branch_2_0_2 ;
+    ex:text "Once upon a time in a distant land," .
+
+ex:Branch_1_1 a ex:Token ;
+    ex:iteration 1 ;
+    ex:next ex:Branch_2_1_0,
+        ex:Branch_2_1_1,
+        ex:Branch_2_1_2 ;
+    ex:text "Once upon a time in a distant land there" .
+
+ex:Branch_1_2 a ex:Token ;
+    ex:iteration 1 ;
+    ex:next ex:Branch_2_2_0,
+        ex:Branch_2_2_1,
+        ex:Branch_2_2_2 ;
+    ex:text "Once upon a time in a distant land far" .
+
+ex:Branch_1_0_0 a ex:Token ;
+    ex:coherenceScore 0 ;
+    ex:iteration 1 ;
+    ex:text "," .
+
+ex:Branch_1_0_1 a ex:Token ;
+    ex:coherenceScore 0 ;
+    ex:iteration 1 ;
+    ex:text " there" .
+
+ex:Branch_1_0_2 a ex:Token ;
+    ex:coherenceScore 0 ;
+    ex:iteration 1 ;
+    ex:text " far" .
+
+ex:Branch_2_0_0 a ex:Token ;
+    ex:coherenceScore 0 ;
+    ex:iteration 2 ;
+    ex:text " there" .
+
+ex:Branch_2_0_1 a ex:Token ;
+    ex:coherenceScore 0 ;
+    ex:iteration 2 ;
+    ex:text " a" .
+
+ex:Branch_2_0_2 a ex:Token ;
+    ex:coherenceScore 0 ;
+    ex:iteration 2 ;
+    ex:text " the" .
+
+ex:Branch_2_1_0 a ex:Token ;
+    ex:coherenceScore 0 ;
+    ex:iteration 2 ;
+    ex:text " lived" .
+
+ex:Branch_2_1_1 a ex:Token ;
+    ex:coherenceScore 0 ;
+    ex:iteration 2 ;
+    ex:text " was" .
+
+ex:Branch_2_1_2 a ex:Token ;
+    ex:coherenceScore 0 ;
+    ex:iteration 2 ;
+    ex:text " were" .
+
+ex:Branch_2_2_0 a ex:Token ;
+    ex:coherenceScore 0 ;
+    ex:iteration 2 ;
+    ex:text "," .
+
+ex:Branch_2_2_1 a ex:Token ;
+    ex:coherenceScore 0 ;
+    ex:iteration 2 ;
+    ex:text " away" .
+
+ex:Branch_2_2_2 a ex:Token ;
+    ex:coherenceScore 0 ;
+    ex:iteration 2 ;
+    ex:text " far" .
+

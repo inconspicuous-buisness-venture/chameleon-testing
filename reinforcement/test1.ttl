@@ -1,0 +1,2302 @@
+@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Branch_0_0 ex:next ex:Branch_1_0_0,
+        ex:Branch_1_0_1,
+        ex:Branch_1_0_2 .
+
+ex:Branch_1_0 ex:next ex:Branch_2_0_0,
+        ex:Branch_2_0_1,
+        ex:Branch_2_0_2 .
+
+ex:Branch_1_1 ex:next ex:Branch_2_1_0,
+        ex:Branch_2_1_1,
+        ex:Branch_2_1_2 .
+
+ex:Branch_1_2 ex:next ex:Branch_2_2_0,
+        ex:Branch_2_2_1,
+        ex:Branch_2_2_2 .
+
+ex:Branch_2_0 ex:next ex:Branch_3_0_0,
+        ex:Branch_3_0_1,
+        ex:Branch_3_0_2 .
+
+ex:Branch_2_1 ex:next ex:Branch_3_1_0,
+        ex:Branch_3_1_1,
+        ex:Branch_3_1_2 .
+
+ex:Branch_2_2 ex:next ex:Branch_3_2_0,
+        ex:Branch_3_2_1,
+        ex:Branch_3_2_2 .
+
+ex:Branch_2_3 ex:next ex:Branch_3_3_0,
+        ex:Branch_3_3_1,
+        ex:Branch_3_3_2 .
+
+ex:Branch_2_4 ex:next ex:Branch_3_4_0,
+        ex:Branch_3_4_1,
+        ex:Branch_3_4_2 .
+
+ex:Branch_2_5 ex:next ex:Branch_3_5_0,
+        ex:Branch_3_5_1,
+        ex:Branch_3_5_2 .
+
+ex:Branch_2_6 ex:next ex:Branch_3_6_0,
+        ex:Branch_3_6_1,
+        ex:Branch_3_6_2 .
+
+ex:Branch_2_7 ex:next ex:Branch_3_7_0,
+        ex:Branch_3_7_1,
+        ex:Branch_3_7_2 .
+
+ex:Branch_2_8 ex:next ex:Branch_3_8_0,
+        ex:Branch_3_8_1,
+        ex:Branch_3_8_2 .
+
+ex:Branch_3_0 ex:next ex:Branch_4_0_0,
+        ex:Branch_4_0_1,
+        ex:Branch_4_0_2 .
+
+ex:Branch_3_1 ex:next ex:Branch_4_1_0,
+        ex:Branch_4_1_1,
+        ex:Branch_4_1_2 .
+
+ex:Branch_3_10 ex:next ex:Branch_4_10_0,
+        ex:Branch_4_10_1,
+        ex:Branch_4_10_2 .
+
+ex:Branch_3_11 ex:next ex:Branch_4_11_0,
+        ex:Branch_4_11_1,
+        ex:Branch_4_11_2 .
+
+ex:Branch_3_12 ex:next ex:Branch_4_12_0,
+        ex:Branch_4_12_1,
+        ex:Branch_4_12_2 .
+
+ex:Branch_3_13 ex:next ex:Branch_4_13_0,
+        ex:Branch_4_13_1,
+        ex:Branch_4_13_2 .
+
+ex:Branch_3_14 ex:next ex:Branch_4_14_0,
+        ex:Branch_4_14_1,
+        ex:Branch_4_14_2 .
+
+ex:Branch_3_15 ex:next ex:Branch_4_15_0,
+        ex:Branch_4_15_1,
+        ex:Branch_4_15_2 .
+
+ex:Branch_3_16 ex:next ex:Branch_4_16_0,
+        ex:Branch_4_16_1,
+        ex:Branch_4_16_2 .
+
+ex:Branch_3_17 ex:next ex:Branch_4_17_0,
+        ex:Branch_4_17_1,
+        ex:Branch_4_17_2 .
+
+ex:Branch_3_18 ex:next ex:Branch_4_18_0,
+        ex:Branch_4_18_1,
+        ex:Branch_4_18_2 .
+
+ex:Branch_3_19 ex:next ex:Branch_4_19_0,
+        ex:Branch_4_19_1,
+        ex:Branch_4_19_2 .
+
+ex:Branch_3_2 ex:next ex:Branch_4_2_0,
+        ex:Branch_4_2_1,
+        ex:Branch_4_2_2 .
+
+ex:Branch_3_20 ex:next ex:Branch_4_20_0,
+        ex:Branch_4_20_1,
+        ex:Branch_4_20_2 .
+
+ex:Branch_3_21 ex:next ex:Branch_4_21_0,
+        ex:Branch_4_21_1,
+        ex:Branch_4_21_2 .
+
+ex:Branch_3_22 ex:next ex:Branch_4_22_0,
+        ex:Branch_4_22_1,
+        ex:Branch_4_22_2 .
+
+ex:Branch_3_23 ex:next ex:Branch_4_23_0,
+        ex:Branch_4_23_1,
+        ex:Branch_4_23_2 .
+
+ex:Branch_3_24 ex:next ex:Branch_4_24_0,
+        ex:Branch_4_24_1,
+        ex:Branch_4_24_2 .
+
+ex:Branch_3_25 ex:next ex:Branch_4_25_0,
+        ex:Branch_4_25_1,
+        ex:Branch_4_25_2 .
+
+ex:Branch_3_26 ex:next ex:Branch_4_26_0,
+        ex:Branch_4_26_1,
+        ex:Branch_4_26_2 .
+
+ex:Branch_3_3 ex:next ex:Branch_4_3_0,
+        ex:Branch_4_3_1,
+        ex:Branch_4_3_2 .
+
+ex:Branch_3_4 ex:next ex:Branch_4_4_0,
+        ex:Branch_4_4_1,
+        ex:Branch_4_4_2 .
+
+ex:Branch_3_5 ex:next ex:Branch_4_5_0,
+        ex:Branch_4_5_1,
+        ex:Branch_4_5_2 .
+
+ex:Branch_3_6 ex:next ex:Branch_4_6_0,
+        ex:Branch_4_6_1,
+        ex:Branch_4_6_2 .
+
+ex:Branch_3_7 ex:next ex:Branch_4_7_0,
+        ex:Branch_4_7_1,
+        ex:Branch_4_7_2 .
+
+ex:Branch_3_8 ex:next ex:Branch_4_8_0,
+        ex:Branch_4_8_1,
+        ex:Branch_4_8_2 .
+
+ex:Branch_3_9 ex:next ex:Branch_4_9_0,
+        ex:Branch_4_9_1,
+        ex:Branch_4_9_2 .
+
+ex:Branch_4_0 ex:next ex:Branch_5_0_0,
+        ex:Branch_5_0_1,
+        ex:Branch_5_0_2 .
+
+ex:Branch_4_1 ex:next ex:Branch_5_1_0,
+        ex:Branch_5_1_1,
+        ex:Branch_5_1_2 .
+
+ex:Branch_4_10 ex:next ex:Branch_5_10_0,
+        ex:Branch_5_10_1,
+        ex:Branch_5_10_2 .
+
+ex:Branch_4_11 ex:next ex:Branch_5_11_0,
+        ex:Branch_5_11_1,
+        ex:Branch_5_11_2 .
+
+ex:Branch_4_12 ex:next ex:Branch_5_12_0,
+        ex:Branch_5_12_1,
+        ex:Branch_5_12_2 .
+
+ex:Branch_4_13 ex:next ex:Branch_5_13_0,
+        ex:Branch_5_13_1,
+        ex:Branch_5_13_2 .
+
+ex:Branch_4_14 ex:next ex:Branch_5_14_0,
+        ex:Branch_5_14_1,
+        ex:Branch_5_14_2 .
+
+ex:Branch_4_15 ex:next ex:Branch_5_15_0,
+        ex:Branch_5_15_1,
+        ex:Branch_5_15_2 .
+
+ex:Branch_4_16 ex:next ex:Branch_5_16_0,
+        ex:Branch_5_16_1,
+        ex:Branch_5_16_2 .
+
+ex:Branch_4_17 ex:next ex:Branch_5_17_0,
+        ex:Branch_5_17_1,
+        ex:Branch_5_17_2 .
+
+ex:Branch_4_18 ex:next ex:Branch_5_18_0,
+        ex:Branch_5_18_1,
+        ex:Branch_5_18_2 .
+
+ex:Branch_4_19 ex:next ex:Branch_5_19_0,
+        ex:Branch_5_19_1,
+        ex:Branch_5_19_2 .
+
+ex:Branch_4_2 ex:next ex:Branch_5_2_0,
+        ex:Branch_5_2_1,
+        ex:Branch_5_2_2 .
+
+ex:Branch_4_20 ex:next ex:Branch_5_20_0,
+        ex:Branch_5_20_1,
+        ex:Branch_5_20_2 .
+
+ex:Branch_4_21 ex:next ex:Branch_5_21_0,
+        ex:Branch_5_21_1,
+        ex:Branch_5_21_2 .
+
+ex:Branch_4_22 ex:next ex:Branch_5_22_0,
+        ex:Branch_5_22_1,
+        ex:Branch_5_22_2 .
+
+ex:Branch_4_23 ex:next ex:Branch_5_23_0,
+        ex:Branch_5_23_1,
+        ex:Branch_5_23_2 .
+
+ex:Branch_4_24 ex:next ex:Branch_5_24_0,
+        ex:Branch_5_24_1,
+        ex:Branch_5_24_2 .
+
+ex:Branch_4_25 ex:next ex:Branch_5_25_0,
+        ex:Branch_5_25_1,
+        ex:Branch_5_25_2 .
+
+ex:Branch_4_26 ex:next ex:Branch_5_26_0,
+        ex:Branch_5_26_1,
+        ex:Branch_5_26_2 .
+
+ex:Branch_4_27 ex:next ex:Branch_5_27_0,
+        ex:Branch_5_27_1,
+        ex:Branch_5_27_2 .
+
+ex:Branch_4_28 ex:next ex:Branch_5_28_0,
+        ex:Branch_5_28_1,
+        ex:Branch_5_28_2 .
+
+ex:Branch_4_29 ex:next ex:Branch_5_29_0,
+        ex:Branch_5_29_1,
+        ex:Branch_5_29_2 .
+
+ex:Branch_4_3 ex:next ex:Branch_5_3_0,
+        ex:Branch_5_3_1,
+        ex:Branch_5_3_2 .
+
+ex:Branch_4_30 ex:next ex:Branch_5_30_0,
+        ex:Branch_5_30_1,
+        ex:Branch_5_30_2 .
+
+ex:Branch_4_31 ex:next ex:Branch_5_31_0,
+        ex:Branch_5_31_1,
+        ex:Branch_5_31_2 .
+
+ex:Branch_4_32 ex:next ex:Branch_5_32_0,
+        ex:Branch_5_32_1,
+        ex:Branch_5_32_2 .
+
+ex:Branch_4_33 ex:next ex:Branch_5_33_0,
+        ex:Branch_5_33_1,
+        ex:Branch_5_33_2 .
+
+ex:Branch_4_34 ex:next ex:Branch_5_34_0,
+        ex:Branch_5_34_1,
+        ex:Branch_5_34_2 .
+
+ex:Branch_4_35 ex:next ex:Branch_5_35_0,
+        ex:Branch_5_35_1,
+        ex:Branch_5_35_2 .
+
+ex:Branch_4_36 ex:next ex:Branch_5_36_0,
+        ex:Branch_5_36_1,
+        ex:Branch_5_36_2 .
+
+ex:Branch_4_37 ex:next ex:Branch_5_37_0,
+        ex:Branch_5_37_1,
+        ex:Branch_5_37_2 .
+
+ex:Branch_4_38 ex:next ex:Branch_5_38_0,
+        ex:Branch_5_38_1,
+        ex:Branch_5_38_2 .
+
+ex:Branch_4_39 ex:next ex:Branch_5_39_0,
+        ex:Branch_5_39_1,
+        ex:Branch_5_39_2 .
+
+ex:Branch_4_4 ex:next ex:Branch_5_4_0,
+        ex:Branch_5_4_1,
+        ex:Branch_5_4_2 .
+
+ex:Branch_4_40 ex:next ex:Branch_5_40_0,
+        ex:Branch_5_40_1,
+        ex:Branch_5_40_2 .
+
+ex:Branch_4_41 ex:next ex:Branch_5_41_0,
+        ex:Branch_5_41_1,
+        ex:Branch_5_41_2 .
+
+ex:Branch_4_42 ex:next ex:Branch_5_42_0,
+        ex:Branch_5_42_1,
+        ex:Branch_5_42_2 .
+
+ex:Branch_4_43 ex:next ex:Branch_5_43_0,
+        ex:Branch_5_43_1,
+        ex:Branch_5_43_2 .
+
+ex:Branch_4_44 ex:next ex:Branch_5_44_0,
+        ex:Branch_5_44_1,
+        ex:Branch_5_44_2 .
+
+ex:Branch_4_45 ex:next ex:Branch_5_45_0,
+        ex:Branch_5_45_1,
+        ex:Branch_5_45_2 .
+
+ex:Branch_4_46 ex:next ex:Branch_5_46_0,
+        ex:Branch_5_46_1,
+        ex:Branch_5_46_2 .
+
+ex:Branch_4_47 ex:next ex:Branch_5_47_0,
+        ex:Branch_5_47_1,
+        ex:Branch_5_47_2 .
+
+ex:Branch_4_48 ex:next ex:Branch_5_48_0,
+        ex:Branch_5_48_1,
+        ex:Branch_5_48_2 .
+
+ex:Branch_4_49 ex:next ex:Branch_5_49_0,
+        ex:Branch_5_49_1,
+        ex:Branch_5_49_2 .
+
+ex:Branch_4_5 ex:next ex:Branch_5_5_0,
+        ex:Branch_5_5_1,
+        ex:Branch_5_5_2 .
+
+ex:Branch_4_50 ex:next ex:Branch_5_50_0,
+        ex:Branch_5_50_1,
+        ex:Branch_5_50_2 .
+
+ex:Branch_4_51 ex:next ex:Branch_5_51_0,
+        ex:Branch_5_51_1,
+        ex:Branch_5_51_2 .
+
+ex:Branch_4_52 ex:next ex:Branch_5_52_0,
+        ex:Branch_5_52_1,
+        ex:Branch_5_52_2 .
+
+ex:Branch_4_53 ex:next ex:Branch_5_53_0,
+        ex:Branch_5_53_1,
+        ex:Branch_5_53_2 .
+
+ex:Branch_4_54 ex:next ex:Branch_5_54_0,
+        ex:Branch_5_54_1,
+        ex:Branch_5_54_2 .
+
+ex:Branch_4_55 ex:next ex:Branch_5_55_0,
+        ex:Branch_5_55_1,
+        ex:Branch_5_55_2 .
+
+ex:Branch_4_56 ex:next ex:Branch_5_56_0,
+        ex:Branch_5_56_1,
+        ex:Branch_5_56_2 .
+
+ex:Branch_4_57 ex:next ex:Branch_5_57_0,
+        ex:Branch_5_57_1,
+        ex:Branch_5_57_2 .
+
+ex:Branch_4_58 ex:next ex:Branch_5_58_0,
+        ex:Branch_5_58_1,
+        ex:Branch_5_58_2 .
+
+ex:Branch_4_59 ex:next ex:Branch_5_59_0,
+        ex:Branch_5_59_1,
+        ex:Branch_5_59_2 .
+
+ex:Branch_4_6 ex:next ex:Branch_5_6_0,
+        ex:Branch_5_6_1,
+        ex:Branch_5_6_2 .
+
+ex:Branch_4_60 ex:next ex:Branch_5_60_0,
+        ex:Branch_5_60_1,
+        ex:Branch_5_60_2 .
+
+ex:Branch_4_61 ex:next ex:Branch_5_61_0,
+        ex:Branch_5_61_1,
+        ex:Branch_5_61_2 .
+
+ex:Branch_4_62 ex:next ex:Branch_5_62_0,
+        ex:Branch_5_62_1,
+        ex:Branch_5_62_2 .
+
+ex:Branch_4_63 ex:next ex:Branch_5_63_0,
+        ex:Branch_5_63_1,
+        ex:Branch_5_63_2 .
+
+ex:Branch_4_64 ex:next ex:Branch_5_64_0,
+        ex:Branch_5_64_1,
+        ex:Branch_5_64_2 .
+
+ex:Branch_4_65 ex:next ex:Branch_5_65_0,
+        ex:Branch_5_65_1,
+        ex:Branch_5_65_2 .
+
+ex:Branch_4_66 ex:next ex:Branch_5_66_0,
+        ex:Branch_5_66_1,
+        ex:Branch_5_66_2 .
+
+ex:Branch_4_67 ex:next ex:Branch_5_67_0,
+        ex:Branch_5_67_1,
+        ex:Branch_5_67_2 .
+
+ex:Branch_4_68 ex:next ex:Branch_5_68_0,
+        ex:Branch_5_68_1,
+        ex:Branch_5_68_2 .
+
+ex:Branch_4_69 ex:next ex:Branch_5_69_0,
+        ex:Branch_5_69_1,
+        ex:Branch_5_69_2 .
+
+ex:Branch_4_7 ex:next ex:Branch_5_7_0,
+        ex:Branch_5_7_1,
+        ex:Branch_5_7_2 .
+
+ex:Branch_4_70 ex:next ex:Branch_5_70_0,
+        ex:Branch_5_70_1,
+        ex:Branch_5_70_2 .
+
+ex:Branch_4_71 ex:next ex:Branch_5_71_0,
+        ex:Branch_5_71_1,
+        ex:Branch_5_71_2 .
+
+ex:Branch_4_72 ex:next ex:Branch_5_72_0,
+        ex:Branch_5_72_1,
+        ex:Branch_5_72_2 .
+
+ex:Branch_4_73 ex:next ex:Branch_5_73_0,
+        ex:Branch_5_73_1,
+        ex:Branch_5_73_2 .
+
+ex:Branch_4_74 ex:next ex:Branch_5_74_0,
+        ex:Branch_5_74_1,
+        ex:Branch_5_74_2 .
+
+ex:Branch_4_75 ex:next ex:Branch_5_75_0,
+        ex:Branch_5_75_1,
+        ex:Branch_5_75_2 .
+
+ex:Branch_4_76 ex:next ex:Branch_5_76_0,
+        ex:Branch_5_76_1,
+        ex:Branch_5_76_2 .
+
+ex:Branch_4_77 ex:next ex:Branch_5_77_0,
+        ex:Branch_5_77_1,
+        ex:Branch_5_77_2 .
+
+ex:Branch_4_78 ex:next ex:Branch_5_78_0,
+        ex:Branch_5_78_1,
+        ex:Branch_5_78_2 .
+
+ex:Branch_4_79 ex:next ex:Branch_5_79_0,
+        ex:Branch_5_79_1,
+        ex:Branch_5_79_2 .
+
+ex:Branch_4_8 ex:next ex:Branch_5_8_0,
+        ex:Branch_5_8_1,
+        ex:Branch_5_8_2 .
+
+ex:Branch_4_80 ex:next ex:Branch_5_80_0,
+        ex:Branch_5_80_1,
+        ex:Branch_5_80_2 .
+
+ex:Branch_4_9 ex:next ex:Branch_5_9_0,
+        ex:Branch_5_9_1,
+        ex:Branch_5_9_2 .
+
+ex:Branch_1_0_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 1 ;
+    ex:text "Once upon a time in a distant land," .
+
+ex:Branch_1_0_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 1 ;
+    ex:text "Once upon a time in a distant land there" .
+
+ex:Branch_1_0_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 1 ;
+    ex:text "Once upon a time in a distant land far" .
+
+ex:Branch_2_0_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 2 ;
+    ex:text "Once upon a time in a distant land, there" .
+
+ex:Branch_2_0_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 2 ;
+    ex:text "Once upon a time in a distant land, a" .
+
+ex:Branch_2_0_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 2 ;
+    ex:text "Once upon a time in a distant land, the" .
+
+ex:Branch_2_1_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 2 ;
+    ex:text "Once upon a time in a distant land there lived" .
+
+ex:Branch_2_1_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 2 ;
+    ex:text "Once upon a time in a distant land there was" .
+
+ex:Branch_2_1_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 2 ;
+    ex:text "Once upon a time in a distant land there were" .
+
+ex:Branch_2_2_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 2 ;
+    ex:text "Once upon a time in a distant land far," .
+
+ex:Branch_2_2_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 2 ;
+    ex:text "Once upon a time in a distant land far away" .
+
+ex:Branch_2_2_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 2 ;
+    ex:text "Once upon a time in a distant land far far" .
+
+ex:Branch_3_0_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land, there lived" .
+
+ex:Branch_3_0_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land, there was" .
+
+ex:Branch_3_0_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land, there were" .
+
+ex:Branch_3_1_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land, a young" .
+
+ex:Branch_3_1_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land, a little" .
+
+ex:Branch_3_1_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land, a group" .
+
+ex:Branch_3_2_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land, the people" .
+
+ex:Branch_3_2_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land, the king" .
+
+ex:Branch_3_2_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land, the King" .
+
+ex:Branch_3_3_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land there lived a" .
+
+ex:Branch_3_3_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land there lived an" .
+
+ex:Branch_3_3_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land there lived two" .
+
+ex:Branch_3_4_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land there was a" .
+
+ex:Branch_3_4_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land there was an" .
+
+ex:Branch_3_4_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land there was this" .
+
+ex:Branch_3_5_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land there were two" .
+
+ex:Branch_3_5_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land there were three" .
+
+ex:Branch_3_5_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land there were a" .
+
+ex:Branch_3_6_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land far, far" .
+
+ex:Branch_3_6_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land far, very" .
+
+ex:Branch_3_6_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land far, " .
+
+ex:Branch_3_7_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land far away," .
+
+ex:Branch_3_7_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land far away from" .
+
+ex:Branch_3_7_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land far away there" .
+
+ex:Branch_3_8_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land far far away" .
+
+ex:Branch_3_8_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land far far way" .
+
+ex:Branch_3_8_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 3 ;
+    ex:text "Once upon a time in a distant land far far from" .
+
+ex:Branch_4_0_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, there lived a" .
+
+ex:Branch_4_0_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, there lived an" .
+
+ex:Branch_4_0_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, there lived two" .
+
+ex:Branch_4_10_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there lived an old" .
+
+ex:Branch_4_10_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there lived an evil" .
+
+ex:Branch_4_10_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there lived an ancient" .
+
+ex:Branch_4_11_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there lived two brothers" .
+
+ex:Branch_4_11_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there lived two sisters" .
+
+ex:Branch_4_11_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there lived two young" .
+
+ex:Branch_4_12_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there was a young" .
+
+ex:Branch_4_12_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there was a king" .
+
+ex:Branch_4_12_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there was a beautiful" .
+
+ex:Branch_4_13_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there was an old" .
+
+ex:Branch_4_13_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there was an evil" .
+
+ex:Branch_4_13_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there was an ancient" .
+
+ex:Branch_4_14_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there was this guy" .
+
+ex:Branch_4_14_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there was this little" .
+
+ex:Branch_4_14_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there was this young" .
+
+ex:Branch_4_15_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there were two brothers" .
+
+ex:Branch_4_15_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there were two young" .
+
+ex:Branch_4_15_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there were two kingdoms" .
+
+ex:Branch_4_16_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there were three brothers" .
+
+ex:Branch_4_16_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there were three little" .
+
+ex:Branch_4_16_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there were three sisters" .
+
+ex:Branch_4_17_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there were a group" .
+
+ex:Branch_4_17_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there were a few" .
+
+ex:Branch_4_17_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there were a bunch" .
+
+ex:Branch_4_18_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far, far away" .
+
+ex:Branch_4_18_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far, far," .
+
+ex:Branch_4_18_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far, far from" .
+
+ex:Branch_4_19_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far, very far" .
+
+ex:Branch_4_19_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far, very," .
+
+ex:Branch_4_19_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far, very very" .
+
+ex:Branch_4_1_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, there was a" .
+
+ex:Branch_4_1_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, there was an" .
+
+ex:Branch_4_1_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, there was this" .
+
+ex:Branch_4_20_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far, far" .
+
+ex:Branch_4_20_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far,  far" .
+
+ex:Branch_4_20_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far,  " .
+
+ex:Branch_4_21_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far away, there" .
+
+ex:Branch_4_21_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far away, a" .
+
+ex:Branch_4_21_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far away, the" .
+
+ex:Branch_4_22_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far away from here" .
+
+ex:Branch_4_22_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far away from the" .
+
+ex:Branch_4_22_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far away from home" .
+
+ex:Branch_4_23_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far away there lived" .
+
+ex:Branch_4_23_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far away there was" .
+
+ex:Branch_4_23_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far away there were" .
+
+ex:Branch_4_24_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far far away," .
+
+ex:Branch_4_24_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far far away there" .
+
+ex:Branch_4_24_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far far away from" .
+
+ex:Branch_4_25_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far far way," .
+
+ex:Branch_4_25_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far far way there" .
+
+ex:Branch_4_25_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far far way lived" .
+
+ex:Branch_4_26_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far far from here" .
+
+ex:Branch_4_26_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far far from the" .
+
+ex:Branch_4_26_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land far far from where" .
+
+ex:Branch_4_2_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, there were two" .
+
+ex:Branch_4_2_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, there were three" .
+
+ex:Branch_4_2_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, there were a" .
+
+ex:Branch_4_3_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, a young man" .
+
+ex:Branch_4_3_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, a young boy" .
+
+ex:Branch_4_3_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, a young girl" .
+
+ex:Branch_4_4_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, a little girl" .
+
+ex:Branch_4_4_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, a little boy" .
+
+ex:Branch_4_4_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, a little bird" .
+
+ex:Branch_4_5_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, a group of" .
+
+ex:Branch_4_5_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, a group called" .
+
+ex:Branch_4_5_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, a group known" .
+
+ex:Branch_4_6_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, the people of" .
+
+ex:Branch_4_6_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, the people lived" .
+
+ex:Branch_4_6_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, the people were" .
+
+ex:Branch_4_7_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, the king of" .
+
+ex:Branch_4_7_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, the king had" .
+
+ex:Branch_4_7_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, the king was" .
+
+ex:Branch_4_8_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, the King of" .
+
+ex:Branch_4_8_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, the King had" .
+
+ex:Branch_4_8_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land, the King and" .
+
+ex:Branch_4_9_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there lived a king" .
+
+ex:Branch_4_9_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there lived a young" .
+
+ex:Branch_4_9_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 4 ;
+    ex:text "Once upon a time in a distant land there lived a man" .
+
+ex:Branch_5_0_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there lived a young" .
+
+ex:Branch_5_0_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there lived a king" .
+
+ex:Branch_5_0_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there lived a man" .
+
+ex:Branch_5_10_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a young boy named" .
+
+ex:Branch_5_10_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a young boy was" .
+
+ex:Branch_5_10_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a young boy lived" .
+
+ex:Branch_5_11_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a young girl named" .
+
+ex:Branch_5_11_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a young girl was" .
+
+ex:Branch_5_11_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a young girl lived" .
+
+ex:Branch_5_12_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a little girl named" .
+
+ex:Branch_5_12_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a little girl was" .
+
+ex:Branch_5_12_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a little girl lived" .
+
+ex:Branch_5_13_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a little boy was" .
+
+ex:Branch_5_13_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a little boy named" .
+
+ex:Branch_5_13_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a little boy lived" .
+
+ex:Branch_5_14_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a little birdie" .
+
+ex:Branch_5_14_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a little bird was" .
+
+ex:Branch_5_14_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a little bird lived" .
+
+ex:Branch_5_15_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a group of people" .
+
+ex:Branch_5_15_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a group of young" .
+
+ex:Branch_5_15_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a group of friends" .
+
+ex:Branch_5_16_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a group called the" .
+
+ex:Branch_5_16_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a group called The" .
+
+ex:Branch_5_16_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a group called “" .
+
+ex:Branch_5_17_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a group known as" .
+
+ex:Branch_5_17_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a group known only" .
+
+ex:Branch_5_17_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a group known for" .
+
+ex:Branch_5_18_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the people of the" .
+
+ex:Branch_5_18_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the people of a" .
+
+ex:Branch_5_18_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the people of that" .
+
+ex:Branch_5_19_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the people lived in" .
+
+ex:Branch_5_19_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the people lived happily" .
+
+ex:Branch_5_19_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the people lived a" .
+
+ex:Branch_5_1_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there lived an old" .
+
+ex:Branch_5_1_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there lived an evil" .
+
+ex:Branch_5_1_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there lived an ancient" .
+
+ex:Branch_5_20_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the people were ruled" .
+
+ex:Branch_5_20_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the people were happy" .
+
+ex:Branch_5_20_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the people were in" .
+
+ex:Branch_5_21_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the king of the" .
+
+ex:Branch_5_21_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the king of a" .
+
+ex:Branch_5_21_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the king of that" .
+
+ex:Branch_5_22_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the king had a" .
+
+ex:Branch_5_22_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the king had three" .
+
+ex:Branch_5_22_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the king had two" .
+
+ex:Branch_5_23_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the king was very" .
+
+ex:Branch_5_23_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the king was a" .
+
+ex:Branch_5_23_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the king was in" .
+
+ex:Branch_5_24_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the King of the" .
+
+ex:Branch_5_24_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the King of a" .
+
+ex:Branch_5_24_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the King of all" .
+
+ex:Branch_5_25_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the King had a" .
+
+ex:Branch_5_25_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the King had three" .
+
+ex:Branch_5_25_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the King had two" .
+
+ex:Branch_5_26_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the King and Queen" .
+
+ex:Branch_5_26_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the King and his" .
+
+ex:Branch_5_26_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, the King and the" .
+
+ex:Branch_5_27_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived a king who" .
+
+ex:Branch_5_27_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived a king." .
+
+ex:Branch_5_27_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived a king and" .
+
+ex:Branch_5_28_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived a young man" .
+
+ex:Branch_5_28_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived a young girl" .
+
+ex:Branch_5_28_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived a young boy" .
+
+ex:Branch_5_29_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived a man who" .
+
+ex:Branch_5_29_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived a man named" .
+
+ex:Branch_5_29_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived a man called" .
+
+ex:Branch_5_2_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there lived two brothers" .
+
+ex:Branch_5_2_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there lived two friends" .
+
+ex:Branch_5_2_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there lived two young" .
+
+ex:Branch_5_30_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived an old man" .
+
+ex:Branch_5_30_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived an old woman" .
+
+ex:Branch_5_30_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived an old king" .
+
+ex:Branch_5_31_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived an evil wizard" .
+
+ex:Branch_5_31_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived an evil sor" .
+
+ex:Branch_5_31_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived an evil king" .
+
+ex:Branch_5_32_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived an ancient tribe" .
+
+ex:Branch_5_32_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived an ancient people" .
+
+ex:Branch_5_32_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived an ancient race" .
+
+ex:Branch_5_33_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived two brothers." .
+
+ex:Branch_5_33_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived two brothers," .
+
+ex:Branch_5_33_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived two brothers who" .
+
+ex:Branch_5_34_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived two sisters." .
+
+ex:Branch_5_34_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived two sisters," .
+
+ex:Branch_5_34_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived two sisters who" .
+
+ex:Branch_5_35_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived two young men" .
+
+ex:Branch_5_35_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived two young boys" .
+
+ex:Branch_5_35_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there lived two young princes" .
+
+ex:Branch_5_36_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was a young man" .
+
+ex:Branch_5_36_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was a young boy" .
+
+ex:Branch_5_36_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was a young girl" .
+
+ex:Branch_5_37_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was a king who" .
+
+ex:Branch_5_37_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was a king." .
+
+ex:Branch_5_37_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was a king and" .
+
+ex:Branch_5_38_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was a beautiful princess" .
+
+ex:Branch_5_38_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was a beautiful young" .
+
+ex:Branch_5_38_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was a beautiful and" .
+
+ex:Branch_5_39_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was an old man" .
+
+ex:Branch_5_39_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was an old woman" .
+
+ex:Branch_5_39_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was an old king" .
+
+ex:Branch_5_3_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there was a young" .
+
+ex:Branch_5_3_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there was a beautiful" .
+
+ex:Branch_5_3_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there was a king" .
+
+ex:Branch_5_40_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was an evil wizard" .
+
+ex:Branch_5_40_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was an evil king" .
+
+ex:Branch_5_40_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was an evil sor" .
+
+ex:Branch_5_41_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was an ancient kingdom" .
+
+ex:Branch_5_41_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was an ancient city" .
+
+ex:Branch_5_41_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was an ancient civilization" .
+
+ex:Branch_5_42_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was this guy who" .
+
+ex:Branch_5_42_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was this guy named" .
+
+ex:Branch_5_42_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was this guy called" .
+
+ex:Branch_5_43_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was this little girl" .
+
+ex:Branch_5_43_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was this little boy" .
+
+ex:Branch_5_43_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was this little village" .
+
+ex:Branch_5_44_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was this young man" .
+
+ex:Branch_5_44_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was this young boy" .
+
+ex:Branch_5_44_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there was this young girl" .
+
+ex:Branch_5_45_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were two brothers." .
+
+ex:Branch_5_45_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were two brothers," .
+
+ex:Branch_5_45_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were two brothers who" .
+
+ex:Branch_5_46_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were two young men" .
+
+ex:Branch_5_46_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were two young boys" .
+
+ex:Branch_5_46_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were two young princes" .
+
+ex:Branch_5_47_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were two kingdoms." .
+
+ex:Branch_5_47_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were two kingdoms," .
+
+ex:Branch_5_47_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were two kingdoms:" .
+
+ex:Branch_5_48_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were three brothers who" .
+
+ex:Branch_5_48_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were three brothers." .
+
+ex:Branch_5_48_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were three brothers," .
+
+ex:Branch_5_49_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were three little pigs" .
+
+ex:Branch_5_49_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were three little girls" .
+
+ex:Branch_5_49_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were three little bears" .
+
+ex:Branch_5_4_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there was an old" .
+
+ex:Branch_5_4_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there was an ancient" .
+
+ex:Branch_5_4_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there was an evil" .
+
+ex:Branch_5_50_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were three sisters." .
+
+ex:Branch_5_50_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were three sisters who" .
+
+ex:Branch_5_50_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were three sisters," .
+
+ex:Branch_5_51_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were a group of" .
+
+ex:Branch_5_51_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were a group called" .
+
+ex:Branch_5_51_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were a group people" .
+
+ex:Branch_5_52_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were a few people" .
+
+ex:Branch_5_52_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were a few men" .
+
+ex:Branch_5_52_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were a few brave" .
+
+ex:Branch_5_53_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were a bunch of" .
+
+ex:Branch_5_53_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were a bunch a" .
+
+ex:Branch_5_53_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land there were a buncha" .
+
+ex:Branch_5_54_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, far away," .
+
+ex:Branch_5_54_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, far away there" .
+
+ex:Branch_5_54_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, far away from" .
+
+ex:Branch_5_55_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, far, away" .
+
+ex:Branch_5_55_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, far, far" .
+
+ex:Branch_5_55_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, far, from" .
+
+ex:Branch_5_56_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, far from here" .
+
+ex:Branch_5_56_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, far from the" .
+
+ex:Branch_5_56_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, far from where" .
+
+ex:Branch_5_57_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, very far away" .
+
+ex:Branch_5_57_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, very far," .
+
+ex:Branch_5_57_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, very far from" .
+
+ex:Branch_5_58_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, very, very" .
+
+ex:Branch_5_58_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, very, far" .
+
+ex:Branch_5_58_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, very, VERY" .
+
+ex:Branch_5_59_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, very very far" .
+
+ex:Branch_5_59_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, very very," .
+
+ex:Branch_5_59_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, very very very" .
+
+ex:Branch_5_5_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there was this little" .
+
+ex:Branch_5_5_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there was this guy" .
+
+ex:Branch_5_5_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there was this young" .
+
+ex:Branch_5_60_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, far away" .
+
+ex:Branch_5_60_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, far," .
+
+ex:Branch_5_60_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far, far " .
+
+ex:Branch_5_61_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far,  far away" .
+
+ex:Branch_5_61_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far,  far," .
+
+ex:Branch_5_61_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far,  far " .
+
+ex:Branch_5_62_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far,  far" .
+
+ex:Branch_5_62_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far,  very" .
+
+ex:Branch_5_62_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far,  away" .
+
+ex:Branch_5_63_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away, there lived" .
+
+ex:Branch_5_63_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away, there was" .
+
+ex:Branch_5_63_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away, there were" .
+
+ex:Branch_5_64_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away, a young" .
+
+ex:Branch_5_64_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away, a little" .
+
+ex:Branch_5_64_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away, a man" .
+
+ex:Branch_5_65_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away, the people" .
+
+ex:Branch_5_65_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away, the world" .
+
+ex:Branch_5_65_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away, the king" .
+
+ex:Branch_5_66_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away from here," .
+
+ex:Branch_5_66_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away from here there" .
+
+ex:Branch_5_66_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away from here and" .
+
+ex:Branch_5_67_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away from the hustle" .
+
+ex:Branch_5_67_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away from the city" .
+
+ex:Branch_5_67_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away from the United" .
+
+ex:Branch_5_68_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away from home," .
+
+ex:Branch_5_68_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away from home there" .
+
+ex:Branch_5_68_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away from home a" .
+
+ex:Branch_5_69_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away there lived a" .
+
+ex:Branch_5_69_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away there lived an" .
+
+ex:Branch_5_69_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away there lived two" .
+
+ex:Branch_5_6_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there were two brothers" .
+
+ex:Branch_5_6_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there were two kingdoms" .
+
+ex:Branch_5_6_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there were two young" .
+
+ex:Branch_5_70_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away there was a" .
+
+ex:Branch_5_70_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away there was an" .
+
+ex:Branch_5_70_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away there was this" .
+
+ex:Branch_5_71_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away there were two" .
+
+ex:Branch_5_71_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away there were three" .
+
+ex:Branch_5_71_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far away there were a" .
+
+ex:Branch_5_72_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far away, there" .
+
+ex:Branch_5_72_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far away, a" .
+
+ex:Branch_5_72_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far away, the" .
+
+ex:Branch_5_73_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far away there was" .
+
+ex:Branch_5_73_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far away there lived" .
+
+ex:Branch_5_73_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far away there were" .
+
+ex:Branch_5_74_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far away from the" .
+
+ex:Branch_5_74_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far away from here" .
+
+ex:Branch_5_74_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far away from where" .
+
+ex:Branch_5_75_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far way, there" .
+
+ex:Branch_5_75_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far way, a" .
+
+ex:Branch_5_75_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far way, lived" .
+
+ex:Branch_5_76_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far way there lived" .
+
+ex:Branch_5_76_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far way there was" .
+
+ex:Branch_5_76_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far way there were" .
+
+ex:Branch_5_77_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far way lived a" .
+
+ex:Branch_5_77_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far way lived an" .
+
+ex:Branch_5_77_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far way lived two" .
+
+ex:Branch_5_78_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far from here," .
+
+ex:Branch_5_78_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far from here there" .
+
+ex:Branch_5_78_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far from here a" .
+
+ex:Branch_5_79_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far from the city" .
+
+ex:Branch_5_79_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far from the West" .
+
+ex:Branch_5_79_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far from the west" .
+
+ex:Branch_5_7_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there were three brothers" .
+
+ex:Branch_5_7_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there were three little" .
+
+ex:Branch_5_7_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there were three sisters" .
+
+ex:Branch_5_80_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far from where I" .
+
+ex:Branch_5_80_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far from where you" .
+
+ex:Branch_5_80_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land far far from where we" .
+
+ex:Branch_5_8_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there were a group" .
+
+ex:Branch_5_8_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there were a few" .
+
+ex:Branch_5_8_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, there were a bunch" .
+
+ex:Branch_5_9_0 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a young man named" .
+
+ex:Branch_5_9_1 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a young man was" .
+
+ex:Branch_5_9_2 a ex:Branch ;
+    ex:coherenceScore 0 ;
+    ex:iteration 5 ;
+    ex:text "Once upon a time in a distant land, a young man and" .
+
