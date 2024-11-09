@@ -1,0 +1,141 @@
+@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Root a ex:Path ;
+    ex:next ex:Path_1_0,
+        ex:Path_1_1,
+        ex:Path_1_2,
+        ex:Path_2_0,
+        ex:Path_2_1,
+        ex:Path_2_2,
+        ex:Path_3_0,
+        ex:Path_3_1,
+        ex:Path_3_2,
+        ex:Path_4_0,
+        ex:Path_4_1,
+        ex:Path_4_2,
+        ex:Path_5_0,
+        ex:Path_5_1,
+        ex:Path_5_2 ;
+    ex:text "Once upon a time" .
+
+ex:Path_1_0 a ex:Path ;
+    ex:next ex:Token_1_0 ;
+    ex:text "Once upon a time ," .
+
+ex:Path_1_1 a ex:Path ;
+    ex:next ex:Token_1_1 ;
+    ex:text "Once upon a time there" .
+
+ex:Path_1_2 a ex:Path ;
+    ex:next ex:Token_1_2 ;
+    ex:text "Once upon a time in" .
+
+ex:Path_2_0 a ex:Path ;
+    ex:next ex:Token_2_0 ;
+    ex:text "Once upon a time ," .
+
+ex:Path_2_1 a ex:Path ;
+    ex:next ex:Token_2_1 ;
+    ex:text "Once upon a time there" .
+
+ex:Path_2_2 a ex:Path ;
+    ex:next ex:Token_2_2 ;
+    ex:text "Once upon a time in" .
+
+ex:Path_3_0 a ex:Path ;
+    ex:next ex:Token_3_0 ;
+    ex:text "Once upon a time ," .
+
+ex:Path_3_1 a ex:Path ;
+    ex:next ex:Token_3_1 ;
+    ex:text "Once upon a time there" .
+
+ex:Path_3_2 a ex:Path ;
+    ex:next ex:Token_3_2 ;
+    ex:text "Once upon a time in" .
+
+ex:Path_4_0 a ex:Path ;
+    ex:next ex:Token_4_0 ;
+    ex:text "Once upon a time ," .
+
+ex:Path_4_1 a ex:Path ;
+    ex:next ex:Token_4_1 ;
+    ex:text "Once upon a time there" .
+
+ex:Path_4_2 a ex:Path ;
+    ex:next ex:Token_4_2 ;
+    ex:text "Once upon a time in" .
+
+ex:Path_5_0 a ex:Path ;
+    ex:next ex:Token_5_0 ;
+    ex:text "Once upon a time ," .
+
+ex:Path_5_1 a ex:Path ;
+    ex:next ex:Token_5_1 ;
+    ex:text "Once upon a time there" .
+
+ex:Path_5_2 a ex:Path ;
+    ex:next ex:Token_5_2 ;
+    ex:text "Once upon a time in" .
+
+ex:Token_1_0 a ex:Token ;
+    ex:iteration 1 ;
+    ex:text "," .
+
+ex:Token_1_1 a ex:Token ;
+    ex:iteration 1 ;
+    ex:text "there" .
+
+ex:Token_1_2 a ex:Token ;
+    ex:iteration 1 ;
+    ex:text "in" .
+
+ex:Token_2_0 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text "," .
+
+ex:Token_2_1 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text "there" .
+
+ex:Token_2_2 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text "in" .
+
+ex:Token_3_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "," .
+
+ex:Token_3_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "there" .
+
+ex:Token_3_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "in" .
+
+ex:Token_4_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:text "," .
+
+ex:Token_4_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:text "there" .
+
+ex:Token_4_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:text "in" .
+
+ex:Token_5_0 a ex:Token ;
+    ex:iteration 5 ;
+    ex:text "," .
+
+ex:Token_5_1 a ex:Token ;
+    ex:iteration 5 ;
+    ex:text "there" .
+
+ex:Token_5_2 a ex:Token ;
+    ex:iteration 5 ;
+    ex:text "in" .
+
