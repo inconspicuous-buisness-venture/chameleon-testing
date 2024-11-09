@@ -1,0 +1,250 @@
+@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Branch_0_0 a ex:Token ;
+    ex:iteration 0 ;
+    ex:next ex:Branch_1_0_0,
+        ex:Branch_1_0_1,
+        ex:Branch_1_0_2 ;
+    ex:text "Once upon a time in a distant land" .
+
+ex:Branch_1_0 a ex:Token ;
+    ex:iteration 1 ;
+    ex:next ex:Branch_2_0_0,
+        ex:Branch_2_0_1,
+        ex:Branch_2_0_2 ;
+    ex:text "Once upon a time in a distant land," .
+
+ex:Branch_1_1 a ex:Token ;
+    ex:iteration 1 ;
+    ex:next ex:Branch_2_1_0,
+        ex:Branch_2_1_1,
+        ex:Branch_2_1_2 ;
+    ex:text "Once upon a time in a distant land there" .
+
+ex:Branch_1_2 a ex:Token ;
+    ex:iteration 1 ;
+    ex:next ex:Branch_2_2_0,
+        ex:Branch_2_2_1,
+        ex:Branch_2_2_2 ;
+    ex:text "Once upon a time in a distant land far" .
+
+ex:Branch_2_0 a ex:Token ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_0_0,
+        ex:Branch_3_0_1,
+        ex:Branch_3_0_2 ;
+    ex:text "Once upon a time in a distant land, there" .
+
+ex:Branch_2_1 a ex:Token ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_1_0,
+        ex:Branch_3_1_1,
+        ex:Branch_3_1_2 ;
+    ex:text "Once upon a time in a distant land, a" .
+
+ex:Branch_2_2 a ex:Token ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_2_0,
+        ex:Branch_3_2_1,
+        ex:Branch_3_2_2 ;
+    ex:text "Once upon a time in a distant land, the" .
+
+ex:Branch_2_3 a ex:Token ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_3_0,
+        ex:Branch_3_3_1,
+        ex:Branch_3_3_2 ;
+    ex:text "Once upon a time in a distant land there lived" .
+
+ex:Branch_2_4 a ex:Token ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_4_0,
+        ex:Branch_3_4_1,
+        ex:Branch_3_4_2 ;
+    ex:text "Once upon a time in a distant land there was" .
+
+ex:Branch_2_5 a ex:Token ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_5_0,
+        ex:Branch_3_5_1,
+        ex:Branch_3_5_2 ;
+    ex:text "Once upon a time in a distant land there were" .
+
+ex:Branch_2_6 a ex:Token ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_6_0,
+        ex:Branch_3_6_1,
+        ex:Branch_3_6_2 ;
+    ex:text "Once upon a time in a distant land far," .
+
+ex:Branch_2_7 a ex:Token ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_7_0,
+        ex:Branch_3_7_1,
+        ex:Branch_3_7_2 ;
+    ex:text "Once upon a time in a distant land far away" .
+
+ex:Branch_2_8 a ex:Token ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_8_0,
+        ex:Branch_3_8_1,
+        ex:Branch_3_8_2 ;
+    ex:text "Once upon a time in a distant land far far" .
+
+ex:Branch_1_0_0 a ex:Token ;
+    ex:iteration 1 ;
+    ex:text "," .
+
+ex:Branch_1_0_1 a ex:Token ;
+    ex:iteration 1 ;
+    ex:text " there" .
+
+ex:Branch_1_0_2 a ex:Token ;
+    ex:iteration 1 ;
+    ex:text " far" .
+
+ex:Branch_2_0_0 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text " there" .
+
+ex:Branch_2_0_1 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text " a" .
+
+ex:Branch_2_0_2 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text " the" .
+
+ex:Branch_2_1_0 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text " lived" .
+
+ex:Branch_2_1_1 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text " was" .
+
+ex:Branch_2_1_2 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text " were" .
+
+ex:Branch_2_2_0 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text "," .
+
+ex:Branch_2_2_1 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text " away" .
+
+ex:Branch_2_2_2 a ex:Token ;
+    ex:iteration 2 ;
+    ex:text " far" .
+
+ex:Branch_3_0_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " lived" .
+
+ex:Branch_3_0_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " was" .
+
+ex:Branch_3_0_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " were" .
+
+ex:Branch_3_1_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " young" .
+
+ex:Branch_3_1_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " little" .
+
+ex:Branch_3_1_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " group" .
+
+ex:Branch_3_2_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " people" .
+
+ex:Branch_3_2_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " king" .
+
+ex:Branch_3_2_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " King" .
+
+ex:Branch_3_3_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " a" .
+
+ex:Branch_3_3_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " an" .
+
+ex:Branch_3_3_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " two" .
+
+ex:Branch_3_4_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " a" .
+
+ex:Branch_3_4_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " an" .
+
+ex:Branch_3_4_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " this" .
+
+ex:Branch_3_5_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " two" .
+
+ex:Branch_3_5_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " three" .
+
+ex:Branch_3_5_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " a" .
+
+ex:Branch_3_6_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " far" .
+
+ex:Branch_3_6_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " very" .
+
+ex:Branch_3_6_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " " .
+
+ex:Branch_3_7_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text "," .
+
+ex:Branch_3_7_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " from" .
+
+ex:Branch_3_7_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " there" .
+
+ex:Branch_3_8_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " away" .
+
+ex:Branch_3_8_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " way" .
+
+ex:Branch_3_8_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:text " from" .
+
