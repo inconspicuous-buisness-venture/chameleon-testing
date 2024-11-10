@@ -1,0 +1,2809 @@
+@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Branch_0_0 a ex:Path ;
+    ex:iteration 0 ;
+    ex:next ex:Branch_1_0_0,
+        ex:Branch_1_0_1,
+        ex:Branch_1_0_2,
+        ex:Branch_1_0_3 ;
+    ex:perplexity_diff "8.180252075195312"^^ex:float,
+        "9.47137451171875"^^ex:float,
+        "11.327981948852539"^^ex:float,
+        "12.534601211547852"^^ex:float,
+        "19.805431365966797"^^ex:float ;
+    ex:text "Once upon a time in a distant land" .
+
+ex:Branch_1_0 a ex:Path ;
+    ex:iteration 1 ;
+    ex:next ex:Branch_2_0_0,
+        ex:Branch_2_0_1,
+        ex:Branch_2_0_2,
+        ex:Branch_2_0_3 ;
+    ex:perplexity_diff "2.676319122314453"^^ex:float,
+        "3.895252227783203"^^ex:float,
+        "5.45404052734375"^^ex:float,
+        "6.603191375732422"^^ex:float,
+        "23.094135284423828"^^ex:float ;
+    ex:text "Once upon a time in a distant land," .
+
+ex:Branch_1_1 a ex:Path ;
+    ex:iteration 1 ;
+    ex:next ex:Branch_2_1_0,
+        ex:Branch_2_1_1,
+        ex:Branch_2_1_2,
+        ex:Branch_2_1_3 ;
+    ex:perplexity_diff "3.1397933959960938"^^ex:float,
+        "4.2201080322265625"^^ex:float,
+        "5.667970657348633"^^ex:float,
+        "6.174716949462891"^^ex:float,
+        "25.219615936279297"^^ex:float ;
+    ex:text "Once upon a time in a distant land there" .
+
+ex:Branch_1_2 a ex:Path ;
+    ex:iteration 1 ;
+    ex:next ex:Branch_2_2_0,
+        ex:Branch_2_2_1,
+        ex:Branch_2_2_2,
+        ex:Branch_2_2_3 ;
+    ex:perplexity_diff "3.456836700439453"^^ex:float,
+        "5.392253875732422"^^ex:float,
+        "5.567773818969727"^^ex:float,
+        "5.918201446533203"^^ex:float,
+        "24.584278106689453"^^ex:float ;
+    ex:text "Once upon a time in a distant land far" .
+
+ex:Branch_1_3 a ex:Path ;
+    ex:iteration 1 ;
+    ex:next ex:Branch_2_3_0,
+        ex:Branch_2_3_1,
+        ex:Branch_2_3_2,
+        ex:Branch_2_3_3 ;
+    ex:perplexity_diff "5.5013275146484375"^^ex:float,
+        "5.749248504638672"^^ex:float,
+        "6.077404022216797"^^ex:float,
+        "7.632297515869141"^^ex:float,
+        "21.3421630859375"^^ex:float ;
+    ex:text "Once upon a time in a distant land called" .
+
+ex:Branch_2_0 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_0_0,
+        ex:Branch_3_0_1,
+        ex:Branch_3_0_2,
+        ex:Branch_3_0_3 ;
+    ex:perplexity_diff "2.6089859008789062"^^ex:float,
+        "3.4400558471679688"^^ex:float,
+        "5.179924011230469"^^ex:float,
+        "6.617572784423828"^^ex:float,
+        "19.673553466796875"^^ex:float ;
+    ex:text "Once upon a time in a distant land, there" .
+
+ex:Branch_2_1 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_1_0,
+        ex:Branch_3_1_1,
+        ex:Branch_3_1_2,
+        ex:Branch_3_1_3 ;
+    ex:perplexity_diff "2.261394500732422"^^ex:float,
+        "3.1736717224121094"^^ex:float,
+        "4.544746398925781"^^ex:float,
+        "5.2571258544921875"^^ex:float,
+        "22.080684661865234"^^ex:float ;
+    ex:text "Once upon a time in a distant land, a" .
+
+ex:Branch_2_10 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_10_0,
+        ex:Branch_3_10_1,
+        ex:Branch_3_10_2,
+        ex:Branch_3_10_3 ;
+    ex:perplexity_diff "1.6445159912109375"^^ex:float,
+        "3.5931777954101562"^^ex:float,
+        "3.901287078857422"^^ex:float,
+        "4.619861602783203"^^ex:float,
+        "12.94045639038086"^^ex:float ;
+    ex:text "Once upon a time in a distant land far far" .
+
+ex:Branch_2_11 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_11_0,
+        ex:Branch_3_11_1,
+        ex:Branch_3_11_2,
+        ex:Branch_3_11_3 ;
+    ex:perplexity_diff "2.8955230712890625"^^ex:float,
+        "4.813892364501953"^^ex:float,
+        "4.904415130615234"^^ex:float,
+        "6.180812835693359"^^ex:float,
+        "10.0159912109375"^^ex:float ;
+    ex:text "Once upon a time in a distant land far from" .
+
+ex:Branch_2_12 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_12_0,
+        ex:Branch_3_12_1,
+        ex:Branch_3_12_2,
+        ex:Branch_3_12_3 ;
+    ex:perplexity_diff "0.40633392333984375"^^ex:float,
+        "1.8735618591308594"^^ex:float,
+        "1.9178237915039062"^^ex:float,
+        "3.208251953125"^^ex:float,
+        "11.687820434570312"^^ex:float ;
+    ex:text "Once upon a time in a distant land called the" .
+
+ex:Branch_2_13 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_13_0,
+        ex:Branch_3_13_1,
+        ex:Branch_3_13_2,
+        ex:Branch_3_13_3 ;
+    ex:perplexity_diff "1.6634101867675781"^^ex:float,
+        "3.2178497314453125"^^ex:float,
+        "3.3008155822753906"^^ex:float,
+        "4.740795135498047"^^ex:float,
+        "5.554691314697266"^^ex:float ;
+    ex:text "Once upon a time in a distant land called America" .
+
+ex:Branch_2_14 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_14_0,
+        ex:Branch_3_14_1,
+        ex:Branch_3_14_2,
+        ex:Branch_3_14_3 ;
+    ex:perplexity_diff "0.21369171142578125"^^ex:float,
+        "2.1519317626953125"^^ex:float,
+        "2.2172279357910156"^^ex:float,
+        "3.227569580078125"^^ex:float,
+        "8.77816390991211"^^ex:float ;
+    ex:text "Once upon a time in a distant land called “" .
+
+ex:Branch_2_15 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_15_0,
+        ex:Branch_3_15_1,
+        ex:Branch_3_15_2,
+        ex:Branch_3_15_3 ;
+    ex:perplexity_diff "1.8404121398925781"^^ex:float,
+        "3.2171707153320312"^^ex:float,
+        "3.2778587341308594"^^ex:float,
+        "4.267848968505859"^^ex:float,
+        "4.5712432861328125"^^ex:float ;
+    ex:text "Once upon a time in a distant land called India" .
+
+ex:Branch_2_2 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_2_0,
+        ex:Branch_3_2_1,
+        ex:Branch_3_2_2,
+        ex:Branch_3_2_3 ;
+    ex:perplexity_diff "2.1360931396484375"^^ex:float,
+        "3.7971458435058594"^^ex:float,
+        "4.1082763671875"^^ex:float,
+        "4.351566314697266"^^ex:float,
+        "21.775146484375"^^ex:float ;
+    ex:text "Once upon a time in a distant land, the" .
+
+ex:Branch_2_3 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_3_0,
+        ex:Branch_3_3_1,
+        ex:Branch_3_3_2,
+        ex:Branch_3_3_3 ;
+    ex:perplexity_diff "2.826519012451172"^^ex:float,
+        "4.363910675048828"^^ex:float,
+        "4.506191253662109"^^ex:float,
+        "6.120658874511719"^^ex:float,
+        "19.621612548828125"^^ex:float ;
+    ex:text "Once upon a time in a distant land, far" .
+
+ex:Branch_2_4 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_4_0,
+        ex:Branch_3_4_1,
+        ex:Branch_3_4_2,
+        ex:Branch_3_4_3 ;
+    ex:perplexity_diff "5.727775573730469"^^ex:float,
+        "6.461517333984375"^^ex:float,
+        "7.002723693847656"^^ex:float,
+        "8.477714538574219"^^ex:float,
+        "17.781932830810547"^^ex:float ;
+    ex:text "Once upon a time in a distant land there lived" .
+
+ex:Branch_2_5 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_5_0,
+        ex:Branch_3_5_1,
+        ex:Branch_3_5_2,
+        ex:Branch_3_5_3 ;
+    ex:perplexity_diff "5.288043975830078"^^ex:float,
+        "5.527927398681641"^^ex:float,
+        "6.754344940185547"^^ex:float,
+        "7.947479248046875"^^ex:float,
+        "16.345272064208984"^^ex:float ;
+    ex:text "Once upon a time in a distant land there was" .
+
+ex:Branch_2_6 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_6_0,
+        ex:Branch_3_6_1,
+        ex:Branch_3_6_2,
+        ex:Branch_3_6_3 ;
+    ex:perplexity_diff "4.946403503417969"^^ex:float,
+        "5.420452117919922"^^ex:float,
+        "6.291805267333984"^^ex:float,
+        "7.274669647216797"^^ex:float,
+        "13.998424530029297"^^ex:float ;
+    ex:text "Once upon a time in a distant land there were" .
+
+ex:Branch_2_7 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_7_0,
+        ex:Branch_3_7_1,
+        ex:Branch_3_7_2,
+        ex:Branch_3_7_3 ;
+    ex:perplexity_diff "4.571441650390625"^^ex:float,
+        "5.681644439697266"^^ex:float,
+        "5.711437225341797"^^ex:float,
+        "7.104850769042969"^^ex:float,
+        "13.46743392944336"^^ex:float ;
+    ex:text "Once upon a time in a distant land there existed" .
+
+ex:Branch_2_8 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_8_0,
+        ex:Branch_3_8_1,
+        ex:Branch_3_8_2,
+        ex:Branch_3_8_3 ;
+    ex:perplexity_diff "3.02117919921875"^^ex:float,
+        "4.533718109130859"^^ex:float,
+        "4.854671478271484"^^ex:float,
+        "6.052349090576172"^^ex:float,
+        "12.728458404541016"^^ex:float ;
+    ex:text "Once upon a time in a distant land far," .
+
+ex:Branch_2_9 a ex:Path ;
+    ex:iteration 2 ;
+    ex:next ex:Branch_3_9_0,
+        ex:Branch_3_9_1,
+        ex:Branch_3_9_2,
+        ex:Branch_3_9_3 ;
+    ex:perplexity_diff "3.5248641967773438"^^ex:float,
+        "5.097557067871094"^^ex:float,
+        "5.713672637939453"^^ex:float,
+        "6.342594146728516"^^ex:float,
+        "11.714065551757812"^^ex:float ;
+    ex:text "Once upon a time in a distant land far away" .
+
+ex:Branch_3_0 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_0_0,
+        ex:Branch_4_0_1,
+        ex:Branch_4_0_2,
+        ex:Branch_4_0_3 ;
+    ex:perplexity_diff "8.46999740600586"^^ex:float,
+        "9.426383972167969"^^ex:float,
+        "11.047615051269531"^^ex:float,
+        "12.38290786743164"^^ex:float,
+        "14.3211669921875"^^ex:float ;
+    ex:text "Once upon a time in a distant land, there lived" .
+
+ex:Branch_3_1 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_1_0,
+        ex:Branch_4_1_1,
+        ex:Branch_4_1_2,
+        ex:Branch_4_1_3 ;
+    ex:perplexity_diff "8.348785400390625"^^ex:float,
+        "9.39633560180664"^^ex:float,
+        "10.61312484741211"^^ex:float,
+        "11.343585968017578"^^ex:float,
+        "16.143917083740234"^^ex:float ;
+    ex:text "Once upon a time in a distant land, there was" .
+
+ex:Branch_3_10 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_10_0,
+        ex:Branch_4_10_1,
+        ex:Branch_4_10_2,
+        ex:Branch_4_10_3 ;
+    ex:perplexity_diff "7.496238708496094"^^ex:float,
+        "8.435104370117188"^^ex:float,
+        "10.484127044677734"^^ex:float,
+        "10.688591003417969"^^ex:float,
+        "11.396198272705078"^^ex:float ;
+    ex:text "Once upon a time in a distant land, the King" .
+
+ex:Branch_3_11 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_11_0,
+        ex:Branch_4_11_1,
+        ex:Branch_4_11_2,
+        ex:Branch_4_11_3 ;
+    ex:perplexity_diff "3.548015594482422"^^ex:float,
+        "10.355205535888672"^^ex:float,
+        "12.499687194824219"^^ex:float,
+        "12.652153015136719"^^ex:float,
+        "13.86312484741211"^^ex:float ;
+    ex:text "Once upon a time in a distant land, the world" .
+
+ex:Branch_3_12 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_12_0,
+        ex:Branch_4_12_1,
+        ex:Branch_4_12_2,
+        ex:Branch_4_12_3 ;
+    ex:perplexity_diff "5.405921936035156"^^ex:float,
+        "8.733715057373047"^^ex:float,
+        "10.22119140625"^^ex:float,
+        "10.370887756347656"^^ex:float,
+        "11.59212875366211"^^ex:float ;
+    ex:text "Once upon a time in a distant land, far away" .
+
+ex:Branch_3_13 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_13_0,
+        ex:Branch_4_13_1,
+        ex:Branch_4_13_2,
+        ex:Branch_4_13_3 ;
+    ex:perplexity_diff "1.6545639038085938"^^ex:float,
+        "10.26312255859375"^^ex:float,
+        "11.938911437988281"^^ex:float,
+        "12.147262573242188"^^ex:float,
+        "13.644588470458984"^^ex:float ;
+    ex:text "Once upon a time in a distant land, far," .
+
+ex:Branch_3_14 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_14_0,
+        ex:Branch_4_14_1,
+        ex:Branch_4_14_2,
+        ex:Branch_4_14_3 ;
+    ex:perplexity_diff "2.5619888305664062"^^ex:float,
+        "7.636150360107422"^^ex:float,
+        "9.586437225341797"^^ex:float,
+        "9.706806182861328"^^ex:float,
+        "10.626869201660156"^^ex:float ;
+    ex:text "Once upon a time in a distant land, far far" .
+
+ex:Branch_3_15 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_15_0,
+        ex:Branch_4_15_1,
+        ex:Branch_4_15_2,
+        ex:Branch_4_15_3 ;
+    ex:perplexity_diff "3.0014801025390625"^^ex:float,
+        "10.914081573486328"^^ex:float,
+        "12.612621307373047"^^ex:float,
+        "12.626632690429688"^^ex:float,
+        "13.90655517578125"^^ex:float ;
+    ex:text "Once upon a time in a distant land, far from" .
+
+ex:Branch_3_16 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_16_0,
+        ex:Branch_4_16_1,
+        ex:Branch_4_16_2,
+        ex:Branch_4_16_3 ;
+    ex:perplexity_diff "5.496955871582031"^^ex:float,
+        "12.356327056884766"^^ex:float,
+        "14.143440246582031"^^ex:float,
+        "14.248893737792969"^^ex:float,
+        "15.26806640625"^^ex:float ;
+    ex:text "Once upon a time in a distant land there lived a" .
+
+ex:Branch_3_17 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_17_0,
+        ex:Branch_4_17_1,
+        ex:Branch_4_17_2,
+        ex:Branch_4_17_3 ;
+    ex:perplexity_diff "1.6135406494140625"^^ex:float,
+        "11.274681091308594"^^ex:float,
+        "12.722675323486328"^^ex:float,
+        "12.982368469238281"^^ex:float,
+        "14.188610076904297"^^ex:float ;
+    ex:text "Once upon a time in a distant land there lived an" .
+
+ex:Branch_3_18 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_18_0,
+        ex:Branch_4_18_1,
+        ex:Branch_4_18_2,
+        ex:Branch_4_18_3 ;
+    ex:perplexity_diff "2.1133575439453125"^^ex:float,
+        "10.783557891845703"^^ex:float,
+        "12.220294952392578"^^ex:float,
+        "12.946426391601562"^^ex:float,
+        "14.037651062011719"^^ex:float ;
+    ex:text "Once upon a time in a distant land there lived two" .
+
+ex:Branch_3_19 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_19_0,
+        ex:Branch_4_19_1,
+        ex:Branch_4_19_2,
+        ex:Branch_4_19_3 ;
+    ex:perplexity_diff "6.347587585449219"^^ex:float,
+        "12.668121337890625"^^ex:float,
+        "13.588302612304688"^^ex:float,
+        "14.641914367675781"^^ex:float,
+        "15.918392181396484"^^ex:float ;
+    ex:text "Once upon a time in a distant land there lived three" .
+
+ex:Branch_3_2 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_2_0,
+        ex:Branch_4_2_1,
+        ex:Branch_4_2_2,
+        ex:Branch_4_2_3 ;
+    ex:perplexity_diff "9.254619598388672"^^ex:float,
+        "10.385841369628906"^^ex:float,
+        "11.039100646972656"^^ex:float,
+        "11.164249420166016"^^ex:float,
+        "15.206371307373047"^^ex:float ;
+    ex:text "Once upon a time in a distant land, there were" .
+
+ex:Branch_3_20 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_20_0,
+        ex:Branch_4_20_1,
+        ex:Branch_4_20_2,
+        ex:Branch_4_20_3 ;
+    ex:perplexity_diff "5.723213195800781"^^ex:float,
+        "12.22979736328125"^^ex:float,
+        "13.764827728271484"^^ex:float,
+        "14.199775695800781"^^ex:float,
+        "15.059516906738281"^^ex:float ;
+    ex:text "Once upon a time in a distant land there was a" .
+
+ex:Branch_3_21 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_21_0,
+        ex:Branch_4_21_1,
+        ex:Branch_4_21_2,
+        ex:Branch_4_21_3 ;
+    ex:perplexity_diff "7.767982482910156"^^ex:float,
+        "15.244159698486328"^^ex:float,
+        "16.295513153076172"^^ex:float,
+        "17.363510131835938"^^ex:float,
+        "18.76201629638672"^^ex:float ;
+    ex:text "Once upon a time in a distant land there was an" .
+
+ex:Branch_3_22 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_22_0,
+        ex:Branch_4_22_1,
+        ex:Branch_4_22_2,
+        ex:Branch_4_22_3 ;
+    ex:perplexity_diff "6.7971038818359375"^^ex:float,
+        "11.876533508300781"^^ex:float,
+        "12.46441650390625"^^ex:float,
+        "13.979595184326172"^^ex:float,
+        "14.85943603515625"^^ex:float ;
+    ex:text "Once upon a time in a distant land there was this" .
+
+ex:Branch_3_23 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_23_0,
+        ex:Branch_4_23_1,
+        ex:Branch_4_23_2,
+        ex:Branch_4_23_3 ;
+    ex:perplexity_diff "8.07891845703125"^^ex:float,
+        "13.507732391357422"^^ex:float,
+        "13.738655090332031"^^ex:float,
+        "14.45794677734375"^^ex:float,
+        "15.766792297363281"^^ex:float ;
+    ex:text "Once upon a time in a distant land there was once" .
+
+ex:Branch_3_24 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_24_0,
+        ex:Branch_4_24_1,
+        ex:Branch_4_24_2,
+        ex:Branch_4_24_3 ;
+    ex:perplexity_diff "7.63031005859375"^^ex:float,
+        "11.660381317138672"^^ex:float,
+        "12.312217712402344"^^ex:float,
+        "13.112213134765625"^^ex:float,
+        "14.117935180664062"^^ex:float ;
+    ex:text "Once upon a time in a distant land there were two" .
+
+ex:Branch_3_25 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_25_0,
+        ex:Branch_4_25_1,
+        ex:Branch_4_25_2,
+        ex:Branch_4_25_3 ;
+    ex:perplexity_diff "7.8410186767578125"^^ex:float,
+        "12.064090728759766"^^ex:float,
+        "12.956626892089844"^^ex:float,
+        "13.94852066040039"^^ex:float,
+        "14.763397216796875"^^ex:float ;
+    ex:text "Once upon a time in a distant land there were three" .
+
+ex:Branch_3_26 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_26_0,
+        ex:Branch_4_26_1,
+        ex:Branch_4_26_2,
+        ex:Branch_4_26_3 ;
+    ex:perplexity_diff "8.350692749023438"^^ex:float,
+        "12.150936126708984"^^ex:float,
+        "13.380615234375"^^ex:float,
+        "14.279682159423828"^^ex:float,
+        "15.226200103759766"^^ex:float ;
+    ex:text "Once upon a time in a distant land there were a" .
+
+ex:Branch_3_27 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_27_0,
+        ex:Branch_4_27_1,
+        ex:Branch_4_27_2,
+        ex:Branch_4_27_3 ;
+    ex:perplexity_diff "7.839080810546875"^^ex:float,
+        "12.079700469970703"^^ex:float,
+        "13.556625366210938"^^ex:float,
+        "13.716144561767578"^^ex:float,
+        "15.030105590820312"^^ex:float ;
+    ex:text "Once upon a time in a distant land there were " .
+
+ex:Branch_3_28 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_28_0,
+        ex:Branch_4_28_1,
+        ex:Branch_4_28_2,
+        ex:Branch_4_28_3 ;
+    ex:perplexity_diff "5.615501403808594"^^ex:float,
+        "10.532272338867188"^^ex:float,
+        "12.337745666503906"^^ex:float,
+        "12.54990005493164"^^ex:float,
+        "13.666633605957031"^^ex:float ;
+    ex:text "Once upon a time in a distant land there existed a" .
+
+ex:Branch_3_29 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_29_0,
+        ex:Branch_4_29_1,
+        ex:Branch_4_29_2,
+        ex:Branch_4_29_3 ;
+    ex:perplexity_diff "7.3568115234375"^^ex:float,
+        "11.887763977050781"^^ex:float,
+        "13.136177062988281"^^ex:float,
+        "13.884819030761719"^^ex:float,
+        "15.216484069824219"^^ex:float ;
+    ex:text "Once upon a time in a distant land there existed an" .
+
+ex:Branch_3_3 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_3_0,
+        ex:Branch_4_3_1,
+        ex:Branch_4_3_2,
+        ex:Branch_4_3_3 ;
+    ex:perplexity_diff "9.379280090332031"^^ex:float,
+        "10.74979019165039"^^ex:float,
+        "11.168617248535156"^^ex:float,
+        "11.250457763671875"^^ex:float,
+        "13.41702651977539"^^ex:float ;
+    ex:text "Once upon a time in a distant land, there existed" .
+
+ex:Branch_3_30 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_30_0,
+        ex:Branch_4_30_1,
+        ex:Branch_4_30_2,
+        ex:Branch_4_30_3 ;
+    ex:perplexity_diff "6.060089111328125"^^ex:float,
+        "9.418258666992188"^^ex:float,
+        "11.013599395751953"^^ex:float,
+        "11.172855377197266"^^ex:float,
+        "12.277473449707031"^^ex:float ;
+    ex:text "Once upon a time in a distant land there existed two" .
+
+ex:Branch_3_31 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_31_0,
+        ex:Branch_4_31_1,
+        ex:Branch_4_31_2,
+        ex:Branch_4_31_3 ;
+    ex:perplexity_diff "10.293609619140625"^^ex:float,
+        "14.210296630859375"^^ex:float,
+        "16.117412567138672"^^ex:float,
+        "16.201465606689453"^^ex:float,
+        "18.042537689208984"^^ex:float ;
+    ex:text "Once upon a time in a distant land there existed the" .
+
+ex:Branch_3_32 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_32_0,
+        ex:Branch_4_32_1,
+        ex:Branch_4_32_2,
+        ex:Branch_4_32_3 ;
+    ex:perplexity_diff "4.368614196777344"^^ex:float,
+        "11.507740020751953"^^ex:float,
+        "13.063091278076172"^^ex:float,
+        "13.32114028930664"^^ex:float,
+        "14.331790924072266"^^ex:float ;
+    ex:text "Once upon a time in a distant land far, far" .
+
+ex:Branch_3_33 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_33_0,
+        ex:Branch_4_33_1,
+        ex:Branch_4_33_2,
+        ex:Branch_4_33_3 ;
+    ex:perplexity_diff "9.21963882446289"^^ex:float,
+        "9.806297302246094"^^ex:float,
+        "10.927841186523438"^^ex:float,
+        "11.07210922241211"^^ex:float,
+        "12.892715454101562"^^ex:float ;
+    ex:text "Once upon a time in a distant land far, very" .
+
+ex:Branch_3_34 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_34_0,
+        ex:Branch_4_34_1,
+        ex:Branch_4_34_2,
+        ex:Branch_4_34_3 ;
+    ex:perplexity_diff "7.125518798828125"^^ex:float,
+        "8.847496032714844"^^ex:float,
+        "10.37343978881836"^^ex:float,
+        "11.232048034667969"^^ex:float,
+        "12.627216339111328"^^ex:float ;
+    ex:text "Once upon a time in a distant land far, " .
+
+ex:Branch_3_35 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_35_0,
+        ex:Branch_4_35_1,
+        ex:Branch_4_35_2,
+        ex:Branch_4_35_3 ;
+    ex:perplexity_diff "8.044479370117188"^^ex:float,
+        "9.584587097167969"^^ex:float,
+        "11.094722747802734"^^ex:float,
+        "11.630897521972656"^^ex:float,
+        "13.039764404296875"^^ex:float ;
+    ex:text "Once upon a time in a distant land far, way" .
+
+ex:Branch_3_36 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_36_0,
+        ex:Branch_4_36_1,
+        ex:Branch_4_36_2,
+        ex:Branch_4_36_3 ;
+    ex:perplexity_diff "9.62493896484375"^^ex:float,
+        "10.985481262207031"^^ex:float,
+        "12.962352752685547"^^ex:float,
+        "13.381534576416016"^^ex:float,
+        "14.74884033203125"^^ex:float ;
+    ex:text "Once upon a time in a distant land far away," .
+
+ex:Branch_3_37 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_37_0,
+        ex:Branch_4_37_1,
+        ex:Branch_4_37_2,
+        ex:Branch_4_37_3 ;
+    ex:perplexity_diff "10.981155395507812"^^ex:float,
+        "12.594459533691406"^^ex:float,
+        "14.856807708740234"^^ex:float,
+        "14.991718292236328"^^ex:float,
+        "16.81450653076172"^^ex:float ;
+    ex:text "Once upon a time in a distant land far away from" .
+
+ex:Branch_3_38 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_38_0,
+        ex:Branch_4_38_1,
+        ex:Branch_4_38_2,
+        ex:Branch_4_38_3 ;
+    ex:perplexity_diff "12.779972076416016"^^ex:float,
+        "12.9981689453125"^^ex:float,
+        "14.276199340820312"^^ex:float,
+        "15.069435119628906"^^ex:float,
+        "16.837081909179688"^^ex:float ;
+    ex:text "Once upon a time in a distant land far away there" .
+
+ex:Branch_3_39 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_39_0,
+        ex:Branch_4_39_1,
+        ex:Branch_4_39_2,
+        ex:Branch_4_39_3 ;
+    ex:perplexity_diff "12.082042694091797"^^ex:float,
+        "12.250526428222656"^^ex:float,
+        "13.423480987548828"^^ex:float,
+        "14.22488021850586"^^ex:float,
+        "15.728118896484375"^^ex:float ;
+    ex:text "Once upon a time in a distant land far away lived" .
+
+ex:Branch_3_4 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_4_0,
+        ex:Branch_4_4_1,
+        ex:Branch_4_4_2,
+        ex:Branch_4_4_3 ;
+    ex:perplexity_diff "9.6412353515625"^^ex:float,
+        "10.943092346191406"^^ex:float,
+        "11.356067657470703"^^ex:float,
+        "11.554534912109375"^^ex:float,
+        "13.756282806396484"^^ex:float ;
+    ex:text "Once upon a time in a distant land, a young" .
+
+ex:Branch_3_40 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_40_0,
+        ex:Branch_4_40_1,
+        ex:Branch_4_40_2,
+        ex:Branch_4_40_3 ;
+    ex:perplexity_diff "8.171501159667969"^^ex:float,
+        "8.674945831298828"^^ex:float,
+        "10.61135482788086"^^ex:float,
+        "10.848827362060547"^^ex:float,
+        "11.69363784790039"^^ex:float ;
+    ex:text "Once upon a time in a distant land far far away" .
+
+ex:Branch_3_41 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_41_0,
+        ex:Branch_4_41_1,
+        ex:Branch_4_41_2,
+        ex:Branch_4_41_3 ;
+    ex:perplexity_diff "12.74371337890625"^^ex:float,
+        "14.680999755859375"^^ex:float,
+        "16.210826873779297"^^ex:float,
+        "16.775463104248047"^^ex:float,
+        "18.92816162109375"^^ex:float ;
+    ex:text "Once upon a time in a distant land far far way" .
+
+ex:Branch_3_42 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_42_0,
+        ex:Branch_4_42_1,
+        ex:Branch_4_42_2,
+        ex:Branch_4_42_3 ;
+    ex:perplexity_diff "5.1206817626953125"^^ex:float,
+        "11.620086669921875"^^ex:float,
+        "11.818840026855469"^^ex:float,
+        "13.220039367675781"^^ex:float,
+        "14.519214630126953"^^ex:float ;
+    ex:text "Once upon a time in a distant land far far from" .
+
+ex:Branch_3_43 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_43_0,
+        ex:Branch_4_43_1,
+        ex:Branch_4_43_2,
+        ex:Branch_4_43_3 ;
+    ex:perplexity_diff "7.068817138671875"^^ex:float,
+        "11.500030517578125"^^ex:float,
+        "12.036983489990234"^^ex:float,
+        "12.247161865234375"^^ex:float,
+        "14.06243896484375"^^ex:float ;
+    ex:text "Once upon a time in a distant land far far far" .
+
+ex:Branch_3_44 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_44_0,
+        ex:Branch_4_44_1,
+        ex:Branch_4_44_2,
+        ex:Branch_4_44_3 ;
+    ex:perplexity_diff "8.847770690917969"^^ex:float,
+        "10.44107437133789"^^ex:float,
+        "10.94403076171875"^^ex:float,
+        "11.863666534423828"^^ex:float,
+        "13.705249786376953"^^ex:float ;
+    ex:text "Once upon a time in a distant land far from here" .
+
+ex:Branch_3_45 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_45_0,
+        ex:Branch_4_45_1,
+        ex:Branch_4_45_2,
+        ex:Branch_4_45_3 ;
+    ex:perplexity_diff "8.576957702636719"^^ex:float,
+        "10.342475891113281"^^ex:float,
+        "10.72955322265625"^^ex:float,
+        "11.792652130126953"^^ex:float,
+        "13.840923309326172"^^ex:float ;
+    ex:text "Once upon a time in a distant land far from the" .
+
+ex:Branch_3_46 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_46_0,
+        ex:Branch_4_46_1,
+        ex:Branch_4_46_2,
+        ex:Branch_4_46_3 ;
+    ex:perplexity_diff "12.716941833496094"^^ex:float,
+        "14.15249252319336"^^ex:float,
+        "15.458137512207031"^^ex:float,
+        "16.081253051757812"^^ex:float,
+        "17.84735107421875"^^ex:float ;
+    ex:text "Once upon a time in a distant land far from home" .
+
+ex:Branch_3_47 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_47_0,
+        ex:Branch_4_47_1,
+        ex:Branch_4_47_2,
+        ex:Branch_4_47_3 ;
+    ex:perplexity_diff "11.676383972167969"^^ex:float,
+        "12.928482055664062"^^ex:float,
+        "13.347991943359375"^^ex:float,
+        "13.39923095703125"^^ex:float,
+        "15.678047180175781"^^ex:float ;
+    ex:text "Once upon a time in a distant land far from our" .
+
+ex:Branch_3_48 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_48_0,
+        ex:Branch_4_48_1,
+        ex:Branch_4_48_2,
+        ex:Branch_4_48_3 ;
+    ex:perplexity_diff "11.052787780761719"^^ex:float,
+        "11.235298156738281"^^ex:float,
+        "12.75467300415039"^^ex:float,
+        "12.816734313964844"^^ex:float,
+        "14.815055847167969"^^ex:float ;
+    ex:text "Once upon a time in a distant land called the United" .
+
+ex:Branch_3_49 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_49_0,
+        ex:Branch_4_49_1,
+        ex:Branch_4_49_2,
+        ex:Branch_4_49_3 ;
+    ex:perplexity_diff "11.355350494384766"^^ex:float,
+        "11.535881042480469"^^ex:float,
+        "13.133281707763672"^^ex:float,
+        "13.914710998535156"^^ex:float,
+        "15.481441497802734"^^ex:float ;
+    ex:text "Once upon a time in a distant land called the Internet" .
+
+ex:Branch_3_5 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_5_0,
+        ex:Branch_4_5_1,
+        ex:Branch_4_5_2,
+        ex:Branch_4_5_3 ;
+    ex:perplexity_diff "10.596519470214844"^^ex:float,
+        "10.723915100097656"^^ex:float,
+        "12.21426010131836"^^ex:float,
+        "12.301456451416016"^^ex:float,
+        "13.522640228271484"^^ex:float ;
+    ex:text "Once upon a time in a distant land, a little" .
+
+ex:Branch_3_50 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_50_0,
+        ex:Branch_4_50_1,
+        ex:Branch_4_50_2,
+        ex:Branch_4_50_3 ;
+    ex:perplexity_diff "7.3748321533203125"^^ex:float,
+        "10.186721801757812"^^ex:float,
+        "12.286746978759766"^^ex:float,
+        "12.91299057006836"^^ex:float,
+        "14.216808319091797"^^ex:float ;
+    ex:text "Once upon a time in a distant land called the Middle" .
+
+ex:Branch_3_51 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_51_0,
+        ex:Branch_4_51_1,
+        ex:Branch_4_51_2,
+        ex:Branch_4_51_3 ;
+    ex:perplexity_diff "9.881431579589844"^^ex:float,
+        "13.916946411132812"^^ex:float,
+        "15.807464599609375"^^ex:float,
+        "16.60891342163086"^^ex:float,
+        "18.282760620117188"^^ex:float ;
+    ex:text "Once upon a time in a distant land called the internet" .
+
+ex:Branch_3_52 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_52_0,
+        ex:Branch_4_52_1,
+        ex:Branch_4_52_2,
+        ex:Branch_4_52_3 ;
+    ex:perplexity_diff "9.014472961425781"^^ex:float,
+        "13.06778335571289"^^ex:float,
+        "13.937431335449219"^^ex:float,
+        "15.11093521118164"^^ex:float,
+        "16.475326538085938"^^ex:float ;
+    ex:text "Once upon a time in a distant land called America," .
+
+ex:Branch_3_53 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_53_0,
+        ex:Branch_4_53_1,
+        ex:Branch_4_53_2,
+        ex:Branch_4_53_3 ;
+    ex:perplexity_diff "10.83673095703125"^^ex:float,
+        "13.123764038085938"^^ex:float,
+        "13.519214630126953"^^ex:float,
+        "14.316429138183594"^^ex:float,
+        "16.379844665527344"^^ex:float ;
+    ex:text "Once upon a time in a distant land called America there" .
+
+ex:Branch_3_54 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_54_0,
+        ex:Branch_4_54_1,
+        ex:Branch_4_54_2,
+        ex:Branch_4_54_3 ;
+    ex:perplexity_diff "9.430809020996094"^^ex:float,
+        "11.30978012084961"^^ex:float,
+        "12.512626647949219"^^ex:float,
+        "12.790706634521484"^^ex:float,
+        "14.399906158447266"^^ex:float ;
+    ex:text "Once upon a time in a distant land called America lived" .
+
+ex:Branch_3_55 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_55_0,
+        ex:Branch_4_55_1,
+        ex:Branch_4_55_2,
+        ex:Branch_4_55_3 ;
+    ex:perplexity_diff "9.417610168457031"^^ex:float,
+        "10.050224304199219"^^ex:float,
+        "11.431365966796875"^^ex:float,
+        "11.784870147705078"^^ex:float,
+        "13.514019012451172"^^ex:float ;
+    ex:text "Once upon a time in a distant land called America a" .
+
+ex:Branch_3_56 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_56_0,
+        ex:Branch_4_56_1,
+        ex:Branch_4_56_2,
+        ex:Branch_4_56_3 ;
+    ex:perplexity_diff "14.411880493164062"^^ex:float,
+        "14.417045593261719"^^ex:float,
+        "16.22978973388672"^^ex:float,
+        "16.61227798461914"^^ex:float,
+        "17.91960906982422"^^ex:float ;
+    ex:text "Once upon a time in a distant land called “The" .
+
+ex:Branch_3_57 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_57_0,
+        ex:Branch_4_57_1,
+        ex:Branch_4_57_2,
+        ex:Branch_4_57_3 ;
+    ex:perplexity_diff "12.081817626953125"^^ex:float,
+        "12.442657470703125"^^ex:float,
+        "13.65725326538086"^^ex:float,
+        "13.85134506225586"^^ex:float,
+        "15.912944793701172"^^ex:float ;
+    ex:text "Once upon a time in a distant land called “the" .
+
+ex:Branch_3_58 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_58_0,
+        ex:Branch_4_58_1,
+        ex:Branch_4_58_2,
+        ex:Branch_4_58_3 ;
+    ex:perplexity_diff "10.055870056152344"^^ex:float,
+        "10.493721008300781"^^ex:float,
+        "11.608970642089844"^^ex:float,
+        "11.992412567138672"^^ex:float,
+        "13.959686279296875"^^ex:float ;
+    ex:text "Once upon a time in a distant land called “America" .
+
+ex:Branch_3_59 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_59_0,
+        ex:Branch_4_59_1,
+        ex:Branch_4_59_2,
+        ex:Branch_4_59_3 ;
+    ex:perplexity_diff "10.666397094726562"^^ex:float,
+        "11.789382934570312"^^ex:float,
+        "12.751068115234375"^^ex:float,
+        "14.613754272460938"^^ex:float,
+        "15.362823486328125"^^ex:float ;
+    ex:text "Once upon a time in a distant land called “New" .
+
+ex:Branch_3_6 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_6_0,
+        ex:Branch_4_6_1,
+        ex:Branch_4_6_2,
+        ex:Branch_4_6_3 ;
+    ex:perplexity_diff "8.896484375"^^ex:float,
+        "11.209754943847656"^^ex:float,
+        "11.626762390136719"^^ex:float,
+        "12.627979278564453"^^ex:float,
+        "13.43313980102539"^^ex:float ;
+    ex:text "Once upon a time in a distant land, a group" .
+
+ex:Branch_3_60 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_60_0,
+        ex:Branch_4_60_1,
+        ex:Branch_4_60_2,
+        ex:Branch_4_60_3 ;
+    ex:perplexity_diff "9.043731689453125"^^ex:float,
+        "11.119853973388672"^^ex:float,
+        "11.25497055053711"^^ex:float,
+        "12.318733215332031"^^ex:float,
+        "12.780757904052734"^^ex:float ;
+    ex:text "Once upon a time in a distant land called India," .
+
+ex:Branch_3_61 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_61_0,
+        ex:Branch_4_61_1,
+        ex:Branch_4_61_2,
+        ex:Branch_4_61_3 ;
+    ex:perplexity_diff "14.641613006591797"^^ex:float,
+        "15.756881713867188"^^ex:float,
+        "16.614009857177734"^^ex:float,
+        "17.275096893310547"^^ex:float,
+        "19.162456512451172"^^ex:float ;
+    ex:text "Once upon a time in a distant land called India there" .
+
+ex:Branch_3_62 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_62_0,
+        ex:Branch_4_62_1,
+        ex:Branch_4_62_2,
+        ex:Branch_4_62_3 ;
+    ex:perplexity_diff "13.270881652832031"^^ex:float,
+        "14.414283752441406"^^ex:float,
+        "14.566822052001953"^^ex:float,
+        "15.436607360839844"^^ex:float,
+        "17.210506439208984"^^ex:float ;
+    ex:text "Once upon a time in a distant land called India lived" .
+
+ex:Branch_3_63 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_63_0,
+        ex:Branch_4_63_1,
+        ex:Branch_4_63_2,
+        ex:Branch_4_63_3 ;
+    ex:perplexity_diff "12.715827941894531"^^ex:float,
+        "14.02096176147461"^^ex:float,
+        "14.263874053955078"^^ex:float,
+        "16.46832275390625"^^ex:float,
+        "16.562110900878906"^^ex:float ;
+    ex:text "Once upon a time in a distant land called India a" .
+
+ex:Branch_3_7 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_7_0,
+        ex:Branch_4_7_1,
+        ex:Branch_4_7_2,
+        ex:Branch_4_7_3 ;
+    ex:perplexity_diff "7.780364990234375"^^ex:float,
+        "11.399646759033203"^^ex:float,
+        "12.778079986572266"^^ex:float,
+        "12.791938781738281"^^ex:float,
+        "14.18359375"^^ex:float ;
+    ex:text "Once upon a time in a distant land, a man" .
+
+ex:Branch_3_8 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_8_0,
+        ex:Branch_4_8_1,
+        ex:Branch_4_8_2,
+        ex:Branch_4_8_3 ;
+    ex:perplexity_diff "7.095073699951172"^^ex:float,
+        "10.975563049316406"^^ex:float,
+        "12.397785186767578"^^ex:float,
+        "12.421077728271484"^^ex:float,
+        "13.612785339355469"^^ex:float ;
+    ex:text "Once upon a time in a distant land, the people" .
+
+ex:Branch_3_9 a ex:Path ;
+    ex:iteration 3 ;
+    ex:next ex:Branch_4_9_0,
+        ex:Branch_4_9_1,
+        ex:Branch_4_9_2,
+        ex:Branch_4_9_3 ;
+    ex:perplexity_diff "5.80401611328125"^^ex:float,
+        "11.353790283203125"^^ex:float,
+        "13.05474853515625"^^ex:float,
+        "13.473712921142578"^^ex:float,
+        "14.179981231689453"^^ex:float ;
+    ex:text "Once upon a time in a distant land, the king" .
+
+ex:Branch_1_0_0 a ex:Token ;
+    ex:iteration 1 ;
+    ex:perplexity_diff "37.104902267456055"^^ex:float ;
+    ex:text "," .
+
+ex:Branch_1_0_1 a ex:Token ;
+    ex:iteration 1 ;
+    ex:perplexity_diff "35.89828300476074"^^ex:float ;
+    ex:text " there" .
+
+ex:Branch_1_0_2 a ex:Token ;
+    ex:iteration 1 ;
+    ex:perplexity_diff "34.04167556762695"^^ex:float ;
+    ex:text " far" .
+
+ex:Branch_1_0_3 a ex:Token ;
+    ex:iteration 1 ;
+    ex:perplexity_diff "32.750553131103516"^^ex:float ;
+    ex:text " called" .
+
+ex:Branch_2_0_0 a ex:Token ;
+    ex:iteration 2 ;
+    ex:perplexity_diff "34.462196350097656"^^ex:float ;
+    ex:text " there" .
+
+ex:Branch_2_0_1 a ex:Token ;
+    ex:iteration 2 ;
+    ex:perplexity_diff "33.313045501708984"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_2_0_2 a ex:Token ;
+    ex:iteration 2 ;
+    ex:perplexity_diff "31.754257202148438"^^ex:float ;
+    ex:text " the" .
+
+ex:Branch_2_0_3 a ex:Token ;
+    ex:iteration 2 ;
+    ex:perplexity_diff "30.535324096679688"^^ex:float ;
+    ex:text " far" .
+
+ex:Branch_2_1_0 a ex:Token ;
+    ex:iteration 2 ;
+    ex:perplexity_diff "34.204593658447266"^^ex:float ;
+    ex:text " lived" .
+
+ex:Branch_2_1_1 a ex:Token ;
+    ex:iteration 2 ;
+    ex:perplexity_diff "36.159202575683594"^^ex:float ;
+    ex:text " was" .
+
+ex:Branch_2_1_2 a ex:Token ;
+    ex:iteration 2 ;
+    ex:perplexity_diff "35.652456283569336"^^ex:float ;
+    ex:text " were" .
+
+ex:Branch_2_1_3 a ex:Token ;
+    ex:iteration 2 ;
+    ex:perplexity_diff "33.1242790222168"^^ex:float ;
+    ex:text " existed" .
+
+ex:Branch_2_2_0 a ex:Token ;
+    ex:iteration 2 ;
+    ex:perplexity_diff "32.80598449707031"^^ex:float ;
+    ex:text "," .
+
+ex:Branch_2_2_1 a ex:Token ;
+    ex:iteration 2 ;
+    ex:perplexity_diff "34.74140167236328"^^ex:float ;
+    ex:text " away" .
+
+ex:Branch_2_2_2 a ex:Token ;
+    ex:iteration 2 ;
+    ex:perplexity_diff "35.26734924316406"^^ex:float ;
+    ex:text " far" .
+
+ex:Branch_2_2_3 a ex:Token ;
+    ex:iteration 2 ;
+    ex:perplexity_diff "34.916921615600586"^^ex:float ;
+    ex:text " from" .
+
+ex:Branch_2_3_0 a ex:Token ;
+    ex:iteration 2 ;
+    ex:perplexity_diff "31.608360290527344"^^ex:float ;
+    ex:text " the" .
+
+ex:Branch_2_3_1 a ex:Token ;
+    ex:iteration 2 ;
+    ex:perplexity_diff "33.73933029174805"^^ex:float ;
+    ex:text " America" .
+
+ex:Branch_2_3_2 a ex:Token ;
+    ex:iteration 2 ;
+    ex:perplexity_diff "32.1844367980957"^^ex:float ;
+    ex:text " “" .
+
+ex:Branch_2_3_3 a ex:Token ;
+    ex:iteration 2 ;
+    ex:perplexity_diff "31.856281280517578"^^ex:float ;
+    ex:text " India" .
+
+ex:Branch_3_0_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "31.05599594116211"^^ex:float ;
+    ex:text " lived" .
+
+ex:Branch_3_0_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "29.61834716796875"^^ex:float ;
+    ex:text " was" .
+
+ex:Branch_3_0_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "27.87847900390625"^^ex:float ;
+    ex:text " were" .
+
+ex:Branch_3_0_3 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "27.047409057617188"^^ex:float ;
+    ex:text " existed" .
+
+ex:Branch_3_10_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "21.606613159179688"^^ex:float ;
+    ex:text " away" .
+
+ex:Branch_3_10_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "22.32518768310547"^^ex:float ;
+    ex:text " way" .
+
+ex:Branch_3_10_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "21.298503875732422"^^ex:float ;
+    ex:text " from" .
+
+ex:Branch_3_10_3 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "19.349842071533203"^^ex:float ;
+    ex:text " far" .
+
+ex:Branch_3_11_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "19.68527603149414"^^ex:float ;
+    ex:text " here" .
+
+ex:Branch_3_11_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "20.961673736572266"^^ex:float ;
+    ex:text " the" .
+
+ex:Branch_3_11_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "19.59475326538086"^^ex:float ;
+    ex:text " home" .
+
+ex:Branch_3_11_3 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "17.67638397216797"^^ex:float ;
+    ex:text " our" .
+
+ex:Branch_3_12_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "18.326251983642578"^^ex:float ;
+    ex:text " United" .
+
+ex:Branch_3_12_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "19.66094207763672"^^ex:float ;
+    ex:text " Internet" .
+
+ex:Branch_3_12_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "18.370513916015625"^^ex:float ;
+    ex:text " Middle" .
+
+ex:Branch_3_12_3 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "16.859024047851562"^^ex:float ;
+    ex:text " internet" .
+
+ex:Branch_3_13_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "13.620376586914062"^^ex:float ;
+    ex:text "," .
+
+ex:Branch_3_13_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "15.060356140136719"^^ex:float ;
+    ex:text " there" .
+
+ex:Branch_3_13_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "13.537410736083984"^^ex:float ;
+    ex:text " lived" .
+
+ex:Branch_3_13_3 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "11.98297119140625"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_3_14_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "15.760261535644531"^^ex:float ;
+    ex:text "The" .
+
+ex:Branch_3_14_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "16.77060317993164"^^ex:float ;
+    ex:text "the" .
+
+ex:Branch_3_14_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "15.694965362548828"^^ex:float ;
+    ex:text "America" .
+
+ex:Branch_3_14_3 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "13.756725311279297"^^ex:float ;
+    ex:text "New" .
+
+ex:Branch_3_15_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "12.310577392578125"^^ex:float ;
+    ex:text "," .
+
+ex:Branch_3_15_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "13.603961944580078"^^ex:float ;
+    ex:text " there" .
+
+ex:Branch_3_15_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "12.249889373779297"^^ex:float ;
+    ex:text " lived" .
+
+ex:Branch_3_15_3 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "10.873130798339844"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_3_1_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "30.01922607421875"^^ex:float ;
+    ex:text " young" .
+
+ex:Branch_3_1_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "32.10268020629883"^^ex:float ;
+    ex:text " little" .
+
+ex:Branch_3_1_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "31.390300750732422"^^ex:float ;
+    ex:text " group" .
+
+ex:Branch_3_1_3 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "29.106948852539062"^^ex:float ;
+    ex:text " man" .
+
+ex:Branch_3_2_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "28.676109313964844"^^ex:float ;
+    ex:text " people" .
+
+ex:Branch_3_2_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "30.891582489013672"^^ex:float ;
+    ex:text " king" .
+
+ex:Branch_3_2_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "30.648292541503906"^^ex:float ;
+    ex:text " King" .
+
+ex:Branch_3_2_3 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "30.337162017822266"^^ex:float ;
+    ex:text " world" .
+
+ex:Branch_3_3_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "27.213001251220703"^^ex:float ;
+    ex:text " away" .
+
+ex:Branch_3_3_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "28.89267349243164"^^ex:float ;
+    ex:text "," .
+
+ex:Branch_3_3_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "28.75039291381836"^^ex:float ;
+    ex:text " far" .
+
+ex:Branch_3_3_3 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "30.50714111328125"^^ex:float ;
+    ex:text " from" .
+
+ex:Branch_3_4_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "28.274578094482422"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_3_4_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "31.024517059326172"^^ex:float ;
+    ex:text " an" .
+
+ex:Branch_3_4_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "29.54952621459961"^^ex:float ;
+    ex:text " two" .
+
+ex:Branch_3_4_3 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "29.008319854736328"^^ex:float ;
+    ex:text " three" .
+
+ex:Branch_3_5_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "26.39818572998047"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_3_5_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "29.057621002197266"^^ex:float ;
+    ex:text " an" .
+
+ex:Branch_3_5_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "27.864486694335938"^^ex:float ;
+    ex:text " this" .
+
+ex:Branch_3_5_3 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "26.63806915283203"^^ex:float ;
+    ex:text " once" .
+
+ex:Branch_3_6_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "24.183746337890625"^^ex:float ;
+    ex:text " two" .
+
+ex:Branch_3_6_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "26.0379638671875"^^ex:float ;
+    ex:text " three" .
+
+ex:Branch_3_6_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "25.055099487304688"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_3_6_3 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "23.709697723388672"^^ex:float ;
+    ex:text " " .
+
+ex:Branch_3_7_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "23.91394805908203"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_3_7_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "25.337154388427734"^^ex:float ;
+    ex:text " an" .
+
+ex:Branch_3_7_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "23.943740844726562"^^ex:float ;
+    ex:text " two" .
+
+ex:Branch_3_7_3 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "22.80374526977539"^^ex:float ;
+    ex:text " the" .
+
+ex:Branch_3_8_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "22.347999572753906"^^ex:float ;
+    ex:text " far" .
+
+ex:Branch_3_8_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "23.545677185058594"^^ex:float ;
+    ex:text " very" .
+
+ex:Branch_3_8_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "22.02704620361328"^^ex:float ;
+    ex:text " " .
+
+ex:Branch_3_8_3 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "20.514507293701172"^^ex:float ;
+    ex:text " way" .
+
+ex:Branch_3_9_0 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "22.192607879638672"^^ex:float ;
+    ex:text "," .
+
+ex:Branch_3_9_1 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "22.821529388427734"^^ex:float ;
+    ex:text " from" .
+
+ex:Branch_3_9_2 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "21.576492309570312"^^ex:float ;
+    ex:text " there" .
+
+ex:Branch_3_9_3 a ex:Token ;
+    ex:iteration 3 ;
+    ex:perplexity_diff "20.003799438476562"^^ex:float ;
+    ex:text " lived" .
+
+ex:Branch_4_0_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "31.468944549560547"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_4_0_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "30.133651733398438"^^ex:float ;
+    ex:text " an" .
+
+ex:Branch_4_0_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "28.512420654296875"^^ex:float ;
+    ex:text " two" .
+
+ex:Branch_4_0_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "27.556034088134766"^^ex:float ;
+    ex:text " three" .
+
+ex:Branch_4_10_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "22.94969940185547"^^ex:float ;
+    ex:text " of" .
+
+ex:Branch_4_10_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "23.657306671142578"^^ex:float ;
+    ex:text " had" .
+
+ex:Branch_4_10_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "22.745235443115234"^^ex:float ;
+    ex:text " and" .
+
+ex:Branch_4_10_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "20.696212768554688"^^ex:float ;
+    ex:text " was" .
+
+ex:Branch_4_11_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "20.965038299560547"^^ex:float ;
+    ex:text " was" .
+
+ex:Branch_4_11_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "22.176010131835938"^^ex:float ;
+    ex:text "’s" .
+
+ex:Branch_4_11_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "20.812572479248047"^^ex:float ;
+    ex:text " of" .
+
+ex:Branch_4_11_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "18.6680908203125"^^ex:float ;
+    ex:text " had" .
+
+ex:Branch_4_12_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "20.391983032226562"^^ex:float ;
+    ex:text " from" .
+
+ex:Branch_4_12_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "21.762920379638672"^^ex:float ;
+    ex:text "," .
+
+ex:Branch_4_12_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "20.54167938232422"^^ex:float ;
+    ex:text " in" .
+
+ex:Branch_4_12_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "18.90450668334961"^^ex:float ;
+    ex:text " and" .
+
+ex:Branch_4_13_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "15.049217224121094"^^ex:float ;
+    ex:text " far" .
+
+ex:Branch_4_13_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "16.754894256591797"^^ex:float ;
+    ex:text " very" .
+
+ex:Branch_4_13_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "15.257568359375"^^ex:float ;
+    ex:text " FAR" .
+
+ex:Branch_4_13_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "13.373428344726562"^^ex:float ;
+    ex:text " " .
+
+ex:Branch_4_14_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "16.91329574584961"^^ex:float ;
+    ex:text " away" .
+
+ex:Branch_4_14_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "17.95372772216797"^^ex:float ;
+    ex:text " from" .
+
+ex:Branch_4_14_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "17.03366470336914"^^ex:float ;
+    ex:text " far" .
+
+ex:Branch_4_14_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "14.963008880615234"^^ex:float ;
+    ex:text " way" .
+
+ex:Branch_4_15_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "14.37601089477539"^^ex:float ;
+    ex:text " the" .
+
+ex:Branch_4_15_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "15.669944763183594"^^ex:float ;
+    ex:text " here" .
+
+ex:Branch_4_15_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "14.390022277832031"^^ex:float ;
+    ex:text " where" .
+
+ex:Branch_4_15_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "12.677471160888672"^^ex:float ;
+    ex:text " our" .
+
+ex:Branch_4_16_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "13.411354064941406"^^ex:float ;
+    ex:text " king" .
+
+ex:Branch_4_16_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "14.535980224609375"^^ex:float ;
+    ex:text " young" .
+
+ex:Branch_4_16_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "13.516807556152344"^^ex:float ;
+    ex:text " man" .
+
+ex:Branch_4_16_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "11.62424087524414"^^ex:float ;
+    ex:text " beautiful" .
+
+ex:Branch_4_17_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "16.133697509765625"^^ex:float ;
+    ex:text " old" .
+
+ex:Branch_4_17_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "17.33993911743164"^^ex:float ;
+    ex:text " evil" .
+
+ex:Branch_4_17_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "15.874004364013672"^^ex:float ;
+    ex:text " ancient" .
+
+ex:Branch_4_17_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "14.426010131835938"^^ex:float ;
+    ex:text " elderly" .
+
+ex:Branch_4_18_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "14.871807098388672"^^ex:float ;
+    ex:text " brothers" .
+
+ex:Branch_4_18_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "16.689163208007812"^^ex:float ;
+    ex:text " sisters" .
+
+ex:Branch_4_18_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "15.597938537597656"^^ex:float ;
+    ex:text " young" .
+
+ex:Branch_4_18_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "13.435070037841797"^^ex:float ;
+    ex:text " friends" .
+
+ex:Branch_4_19_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "12.005584716796875"^^ex:float ;
+    ex:text " brothers" .
+
+ex:Branch_4_19_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "14.335674285888672"^^ex:float ;
+    ex:text " little" .
+
+ex:Branch_4_19_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "13.059196472167969"^^ex:float ;
+    ex:text " sisters" .
+
+ex:Branch_4_19_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "11.085403442382812"^^ex:float ;
+    ex:text " friends" .
+
+ex:Branch_4_1_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "30.30512237548828"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_4_1_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "32.25237274169922"^^ex:float ;
+    ex:text " an" .
+
+ex:Branch_4_1_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "31.52191162109375"^^ex:float ;
+    ex:text " this" .
+
+ex:Branch_4_1_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "29.257572174072266"^^ex:float ;
+    ex:text " once" .
+
+ex:Branch_4_20_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "12.80648422241211"^^ex:float ;
+    ex:text " young" .
+
+ex:Branch_4_20_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "14.101173400878906"^^ex:float ;
+    ex:text " king" .
+
+ex:Branch_4_20_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "13.241432189941406"^^ex:float ;
+    ex:text " beautiful" .
+
+ex:Branch_4_20_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "11.271453857421875"^^ex:float ;
+    ex:text " man" .
+
+ex:Branch_4_21_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "13.292400360107422"^^ex:float ;
+    ex:text " old" .
+
+ex:Branch_4_21_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "15.758903503417969"^^ex:float ;
+    ex:text " evil" .
+
+ex:Branch_4_21_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "14.360397338867188"^^ex:float ;
+    ex:text " ancient" .
+
+ex:Branch_4_21_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "12.241046905517578"^^ex:float ;
+    ex:text " island" .
+
+ex:Branch_4_22_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.432182312011719"^^ex:float ;
+    ex:text " guy" .
+
+ex:Branch_4_22_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "12.827201843261719"^^ex:float ;
+    ex:text " little" .
+
+ex:Branch_4_22_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "11.94736099243164"^^ex:float ;
+    ex:text " young" .
+
+ex:Branch_4_22_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "9.84429931640625"^^ex:float ;
+    ex:text " beautiful" .
+
+ex:Branch_4_23_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.424606323242188"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_4_23_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "12.452743530273438"^^ex:float ;
+    ex:text " an" .
+
+ex:Branch_4_23_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "11.143898010253906"^^ex:float ;
+    ex:text " this" .
+
+ex:Branch_4_23_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.193683624267578"^^ex:float ;
+    ex:text " the" .
+
+ex:Branch_4_24_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "9.44677734375"^^ex:float ;
+    ex:text " brothers" .
+
+ex:Branch_4_24_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "11.252494812011719"^^ex:float ;
+    ex:text " young" .
+
+ex:Branch_4_24_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.246772766113281"^^ex:float ;
+    ex:text " kingdoms" .
+
+ex:Branch_4_24_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.794940948486328"^^ex:float ;
+    ex:text " people" .
+
+ex:Branch_4_25_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "9.880477905273438"^^ex:float ;
+    ex:text " brothers" .
+
+ex:Branch_4_25_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "11.687248229980469"^^ex:float ;
+    ex:text " little" .
+
+ex:Branch_4_25_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.872371673583984"^^ex:float ;
+    ex:text " sisters" .
+
+ex:Branch_4_25_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.98794174194336"^^ex:float ;
+    ex:text " young" .
+
+ex:Branch_4_26_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "9.794792175292969"^^ex:float ;
+    ex:text " group" .
+
+ex:Branch_4_26_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "11.640377044677734"^^ex:float ;
+    ex:text " few" .
+
+ex:Branch_4_26_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.693859100341797"^^ex:float ;
+    ex:text " bunch" .
+
+ex:Branch_4_26_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.565113067626953"^^ex:float ;
+    ex:text " people" .
+
+ex:Branch_4_27_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.482414245605469"^^ex:float ;
+    ex:text "3" .
+
+ex:Branch_4_27_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "11.955894470214844"^^ex:float ;
+    ex:text "2" .
+
+ex:Branch_4_27_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.64193344116211"^^ex:float ;
+    ex:text "4" .
+
+ex:Branch_4_27_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "9.005489349365234"^^ex:float ;
+    ex:text "10" .
+
+ex:Branch_4_28_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "11.699268341064453"^^ex:float ;
+    ex:text " kingdom" .
+
+ex:Branch_4_28_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "12.816001892089844"^^ex:float ;
+    ex:text " great" .
+
+ex:Branch_4_28_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "11.487113952636719"^^ex:float ;
+    ex:text " small" .
+
+ex:Branch_4_28_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "9.681640625"^^ex:float ;
+    ex:text " beautiful" .
+
+ex:Branch_4_29_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.544235229492188"^^ex:float ;
+    ex:text " ancient" .
+
+ex:Branch_4_29_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "12.624542236328125"^^ex:float ;
+    ex:text " empire" .
+
+ex:Branch_4_29_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "11.292877197265625"^^ex:float ;
+    ex:text " evil" .
+
+ex:Branch_4_29_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "9.295822143554688"^^ex:float ;
+    ex:text " island" .
+
+ex:Branch_4_2_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "29.225860595703125"^^ex:float ;
+    ex:text " two" .
+
+ex:Branch_4_2_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "31.13549041748047"^^ex:float ;
+    ex:text " three" .
+
+ex:Branch_4_2_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "31.01034164428711"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_4_2_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "30.35708236694336"^^ex:float ;
+    ex:text " " .
+
+ex:Branch_4_30_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "9.718379974365234"^^ex:float ;
+    ex:text " kingdoms" .
+
+ex:Branch_4_30_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.982254028320312"^^ex:float ;
+    ex:text " brothers" .
+
+ex:Branch_4_30_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "9.877635955810547"^^ex:float ;
+    ex:text " tribes" .
+
+ex:Branch_4_30_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.123039245605469"^^ex:float ;
+    ex:text " great" .
+
+ex:Branch_4_31_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.588672637939453"^^ex:float ;
+    ex:text " most" .
+
+ex:Branch_4_31_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "12.513797760009766"^^ex:float ;
+    ex:text " Kingdom" .
+
+ex:Branch_4_31_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.672725677490234"^^ex:float ;
+    ex:text " kingdom" .
+
+ex:Branch_4_31_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.681556701660156"^^ex:float ;
+    ex:text " greatest" .
+
+ex:Branch_4_32_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "13.717395782470703"^^ex:float ;
+    ex:text " away" .
+
+ex:Branch_4_32_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "14.728046417236328"^^ex:float ;
+    ex:text "," .
+
+ex:Branch_4_32_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "13.459346771240234"^^ex:float ;
+    ex:text " from" .
+
+ex:Branch_4_32_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "11.903995513916016"^^ex:float ;
+    ex:text " way" .
+
+ex:Branch_4_33_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "5.88641357421875"^^ex:float ;
+    ex:text " far" .
+
+ex:Branch_4_33_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "7.851287841796875"^^ex:float ;
+    ex:text "," .
+
+ex:Branch_4_33_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.030681610107422"^^ex:float ;
+    ex:text " very" .
+
+ex:Branch_4_33_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "4.178211212158203"^^ex:float ;
+    ex:text " " .
+
+ex:Branch_4_34_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.01279067993164"^^ex:float ;
+    ex:text "far" .
+
+ex:Branch_4_34_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.26656723022461"^^ex:float ;
+    ex:text " far" .
+
+ex:Branch_4_34_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.87139892578125"^^ex:float ;
+    ex:text " " .
+
+ex:Branch_4_34_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.486846923828125"^^ex:float ;
+    ex:text "f" .
+
+ex:Branch_4_35_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "7.815113067626953"^^ex:float ;
+    ex:text "," .
+
+ex:Branch_4_35_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "9.760154724121094"^^ex:float ;
+    ex:text " there" .
+
+ex:Branch_4_35_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.351287841796875"^^ex:float ;
+    ex:text " from" .
+
+ex:Branch_4_35_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.3049774169921875"^^ex:float ;
+    ex:text " across" .
+
+ex:Branch_4_36_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.102283477783203"^^ex:float ;
+    ex:text " there" .
+
+ex:Branch_4_36_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "9.888771057128906"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_4_36_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.521465301513672"^^ex:float ;
+    ex:text " the" .
+
+ex:Branch_4_36_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.1254119873046875"^^ex:float ;
+    ex:text " lived" .
+
+ex:Branch_4_37_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.775432586669922"^^ex:float ;
+    ex:text " here" .
+
+ex:Branch_4_37_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.598220825195312"^^ex:float ;
+    ex:text " the" .
+
+ex:Branch_4_37_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.640522003173828"^^ex:float ;
+    ex:text " home" .
+
+ex:Branch_4_37_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.378173828125"^^ex:float ;
+    ex:text " our" .
+
+ex:Branch_4_38_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.042900085449219"^^ex:float ;
+    ex:text " lived" .
+
+ex:Branch_4_38_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.603782653808594"^^ex:float ;
+    ex:text " was" .
+
+ex:Branch_4_38_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.8361358642578125"^^ex:float ;
+    ex:text " were" .
+
+ex:Branch_4_38_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "4.546672821044922"^^ex:float ;
+    ex:text " existed" .
+
+ex:Branch_4_39_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "5.937824249267578"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_4_39_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.242462158203125"^^ex:float ;
+    ex:text " an" .
+
+ex:Branch_4_39_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.739223480224609"^^ex:float ;
+    ex:text " two" .
+
+ex:Branch_4_39_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "4.596385955810547"^^ex:float ;
+    ex:text " the" .
+
+ex:Branch_4_3_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "27.561176300048828"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_4_3_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "29.350513458251953"^^ex:float ;
+    ex:text " an" .
+
+ex:Branch_4_3_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "29.432353973388672"^^ex:float ;
+    ex:text " two" .
+
+ex:Branch_4_3_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "28.931686401367188"^^ex:float ;
+    ex:text " the" .
+
+ex:Branch_4_40_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "7.442195892333984"^^ex:float ;
+    ex:text "," .
+
+ex:Branch_4_40_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.287006378173828"^^ex:float ;
+    ex:text " there" .
+
+ex:Branch_4_40_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "7.204723358154297"^^ex:float ;
+    ex:text " from" .
+
+ex:Branch_4_40_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "5.268314361572266"^^ex:float ;
+    ex:text " lived" .
+
+ex:Branch_4_41_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.231983184814453"^^ex:float ;
+    ex:text "," .
+
+ex:Branch_4_41_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.949317932128906"^^ex:float ;
+    ex:text " there" .
+
+ex:Branch_4_41_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.796619415283203"^^ex:float ;
+    ex:text " lived" .
+
+ex:Branch_4_41_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.702156066894531"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_4_42_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "11.463027954101562"^^ex:float ;
+    ex:text " here" .
+
+ex:Branch_4_42_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "14.163402557373047"^^ex:float ;
+    ex:text " the" .
+
+ex:Branch_4_42_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "12.864227294921875"^^ex:float ;
+    ex:text " where" .
+
+ex:Branch_4_42_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "11.264274597167969"^^ex:float ;
+    ex:text " home" .
+
+ex:Branch_4_43_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "9.733036041259766"^^ex:float ;
+    ex:text " away" .
+
+ex:Branch_4_43_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "11.758491516113281"^^ex:float ;
+    ex:text " far" .
+
+ex:Branch_4_43_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "9.943214416503906"^^ex:float ;
+    ex:text " from" .
+
+ex:Branch_4_43_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "9.196083068847656"^^ex:float ;
+    ex:text " way" .
+
+ex:Branch_4_44_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.8611297607421875"^^ex:float ;
+    ex:text "," .
+
+ex:Branch_4_44_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "9.62234878540039"^^ex:float ;
+    ex:text " there" .
+
+ex:Branch_4_44_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "7.780765533447266"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_4_44_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.358173370361328"^^ex:float ;
+    ex:text " lived" .
+
+ex:Branch_4_45_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.9174652099609375"^^ex:float ;
+    ex:text " sea" .
+
+ex:Branch_4_45_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.02883529663086"^^ex:float ;
+    ex:text " city" .
+
+ex:Branch_4_45_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "7.980564117431641"^^ex:float ;
+    ex:text " reach" .
+
+ex:Branch_4_45_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.530387878417969"^^ex:float ;
+    ex:text " m" .
+
+ex:Branch_4_46_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "7.506065368652344"^^ex:float ;
+    ex:text "," .
+
+ex:Branch_4_46_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "9.895278930664062"^^ex:float ;
+    ex:text " there" .
+
+ex:Branch_4_46_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.129180908203125"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_4_46_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.200420379638672"^^ex:float ;
+    ex:text " lived" .
+
+ex:Branch_4_47_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "5.235618591308594"^^ex:float ;
+    ex:text " own" .
+
+ex:Branch_4_47_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "7.514434814453125"^^ex:float ;
+    ex:text " shores" .
+
+ex:Branch_4_47_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "5.184379577636719"^^ex:float ;
+    ex:text " home" .
+
+ex:Branch_4_47_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "3.5127716064453125"^^ex:float ;
+    ex:text " modern" .
+
+ex:Branch_4_48_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.346305847167969"^^ex:float ;
+    ex:text " States" .
+
+ex:Branch_4_48_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.344627380371094"^^ex:float ;
+    ex:text " Kingdom" .
+
+ex:Branch_4_48_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.284244537353516"^^ex:float ;
+    ex:text " Arab" .
+
+ex:Branch_4_48_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "4.582359313964844"^^ex:float ;
+    ex:text " State" .
+
+ex:Branch_4_49_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.362270355224609"^^ex:float ;
+    ex:text "," .
+
+ex:Branch_4_49_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.710430145263672"^^ex:float ;
+    ex:text " there" .
+
+ex:Branch_4_49_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "7.143699645996094"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_4_49_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "4.584339141845703"^^ex:float ;
+    ex:text " of" .
+
+ex:Branch_4_4_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "28.16238784790039"^^ex:float ;
+    ex:text " man" .
+
+ex:Branch_4_4_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "29.877220153808594"^^ex:float ;
+    ex:text " boy" .
+
+ex:Branch_4_4_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "30.075687408447266"^^ex:float ;
+    ex:text " girl" .
+
+ex:Branch_4_4_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "29.464244842529297"^^ex:float ;
+    ex:text " prince" .
+
+ex:Branch_4_50_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "9.67678451538086"^^ex:float ;
+    ex:text " East" .
+
+ex:Branch_4_50_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "11.60684585571289"^^ex:float ;
+    ex:text " Ages" .
+
+ex:Branch_4_50_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.303028106689453"^^ex:float ;
+    ex:text " Kingdom" .
+
+ex:Branch_4_50_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "7.576759338378906"^^ex:float ;
+    ex:text " West" .
+
+ex:Branch_4_51_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.690902709960938"^^ex:float ;
+    ex:text "," .
+
+ex:Branch_4_51_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "13.16619873046875"^^ex:float ;
+    ex:text " there" .
+
+ex:Branch_4_51_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "11.492351531982422"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_4_51_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.800384521484375"^^ex:float ;
+    ex:text " (" .
+
+ex:Branch_4_52_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "9.687828063964844"^^ex:float ;
+    ex:text " there" .
+
+ex:Branch_4_52_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "12.225723266601562"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_4_52_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.861331939697266"^^ex:float ;
+    ex:text " the" .
+
+ex:Branch_4_52_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.818180084228516"^^ex:float ;
+    ex:text " people" .
+
+ex:Branch_4_53_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "7.447353363037109"^^ex:float ;
+    ex:text " lived" .
+
+ex:Branch_4_53_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "10.3079833984375"^^ex:float ;
+    ex:text " was" .
+
+ex:Branch_4_53_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.24456787109375"^^ex:float ;
+    ex:text " were" .
+
+ex:Branch_4_53_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "7.051902770996094"^^ex:float ;
+    ex:text " existed" .
+
+ex:Branch_4_54_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "7.846687316894531"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_4_54_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "9.733966827392578"^^ex:float ;
+    ex:text " two" .
+
+ex:Branch_4_54_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.124767303466797"^^ex:float ;
+    ex:text " an" .
+
+ex:Branch_4_54_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.643840789794922"^^ex:float ;
+    ex:text " three" .
+
+ex:Branch_4_55_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.77862548828125"^^ex:float ;
+    ex:text " man" .
+
+ex:Branch_4_55_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.861278533935547"^^ex:float ;
+    ex:text " young" .
+
+ex:Branch_4_55_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "7.132129669189453"^^ex:float ;
+    ex:text " group" .
+
+ex:Branch_4_55_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "5.397483825683594"^^ex:float ;
+    ex:text " great" .
+
+ex:Branch_4_56_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.960102081298828"^^ex:float ;
+    ex:text " Internet" .
+
+ex:Branch_4_56_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.267433166503906"^^ex:float ;
+    ex:text " West" .
+
+ex:Branch_4_56_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.577613830566406"^^ex:float ;
+    ex:text " United" .
+
+ex:Branch_4_56_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "4.75970458984375"^^ex:float ;
+    ex:text " Middle" .
+
+ex:Branch_4_57_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.173557281494141"^^ex:float ;
+    ex:text " future" .
+
+ex:Branch_4_57_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.235157012939453"^^ex:float ;
+    ex:text " " .
+
+ex:Branch_4_57_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "5.979465484619141"^^ex:float ;
+    ex:text " Internet" .
+
+ex:Branch_4_57_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "4.404029846191406"^^ex:float ;
+    ex:text " internet" .
+
+ex:Branch_4_58_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "5.880119323730469"^^ex:float ;
+    ex:text "”" .
+
+ex:Branch_4_58_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.2308349609375"^^ex:float ;
+    ex:text ",”" .
+
+ex:Branch_4_58_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.263561248779297"^^ex:float ;
+    ex:text "”," .
+
+ex:Branch_4_58_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "4.327018737792969"^^ex:float ;
+    ex:text """”
+""" .
+
+ex:Branch_4_59_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "1.1914291381835938"^^ex:float ;
+    ex:text " York" .
+
+ex:Branch_4_59_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "4.015800476074219"^^ex:float ;
+    ex:text " Jersey" .
+
+ex:Branch_4_59_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "2.1531143188476562"^^ex:float ;
+    ex:text " England" .
+
+ex:Branch_4_59_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "0.06844329833984375"^^ex:float ;
+    ex:text " Zealand" .
+
+ex:Branch_4_5_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "27.662845611572266"^^ex:float ;
+    ex:text " girl" .
+
+ex:Branch_4_5_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "30.588966369628906"^^ex:float ;
+    ex:text " boy" .
+
+ex:Branch_4_5_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "29.28058624267578"^^ex:float ;
+    ex:text " bird" .
+
+ex:Branch_4_5_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "27.790241241455078"^^ex:float ;
+    ex:text " princess" .
+
+ex:Branch_4_60_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "3.565990447998047"^^ex:float ;
+    ex:text " there" .
+
+ex:Branch_4_60_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "5.226894378662109"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_4_60_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "3.7011070251464844"^^ex:float ;
+    ex:text " lived" .
+
+ex:Branch_4_60_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "1.4898681640625"^^ex:float ;
+    ex:text " the" .
+
+ex:Branch_4_61_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "5.621997833251953"^^ex:float ;
+    ex:text " lived" .
+
+ex:Branch_4_61_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "8.17044448852539"^^ex:float ;
+    ex:text " was" .
+
+ex:Branch_4_61_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "6.283084869384766"^^ex:float ;
+    ex:text " were" .
+
+ex:Branch_4_61_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "3.6496009826660156"^^ex:float ;
+    ex:text " existed" .
+
+ex:Branch_4_62_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "4.917407989501953"^^ex:float ;
+    ex:text " a" .
+
+ex:Branch_4_62_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "7.561092376708984"^^ex:float ;
+    ex:text " two" .
+
+ex:Branch_4_62_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "5.787193298339844"^^ex:float ;
+    ex:text " an" .
+
+ex:Branch_4_62_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "3.6214675903320312"^^ex:float ;
+    ex:text " three" .
+
+ex:Branch_4_63_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "2.5604209899902344"^^ex:float ;
+    ex:text " young" .
+
+ex:Branch_4_63_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "4.8586578369140625"^^ex:float ;
+    ex:text " man" .
+
+ex:Branch_4_63_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "2.3175086975097656"^^ex:float ;
+    ex:text " king" .
+
+ex:Branch_4_63_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "1.0123748779296875"^^ex:float ;
+    ex:text " little" .
+
+ex:Branch_4_6_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "25.288116455078125"^^ex:float ;
+    ex:text " of" .
+
+ex:Branch_4_6_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "27.094493865966797"^^ex:float ;
+    ex:text " called" .
+
+ex:Branch_4_6_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "26.28933334350586"^^ex:float ;
+    ex:text " known" .
+
+ex:Branch_4_6_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "24.871109008789062"^^ex:float ;
+    ex:text " gathered" .
+
+ex:Branch_4_7_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "25.337173461914062"^^ex:float ;
+    ex:text " named" .
+
+ex:Branch_4_7_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "26.72882843017578"^^ex:float ;
+    ex:text " was" .
+
+ex:Branch_4_7_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "25.323314666748047"^^ex:float ;
+    ex:text " and" .
+
+ex:Branch_4_7_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "23.944881439208984"^^ex:float ;
+    ex:text " had" .
+
+ex:Branch_4_8_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "24.281021118164062"^^ex:float ;
+    ex:text " of" .
+
+ex:Branch_4_8_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "25.472728729248047"^^ex:float ;
+    ex:text " lived" .
+
+ex:Branch_4_8_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "24.257728576660156"^^ex:float ;
+    ex:text " were" .
+
+ex:Branch_4_8_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "22.835506439208984"^^ex:float ;
+    ex:text " had" .
+
+ex:Branch_4_9_0 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "24.042598724365234"^^ex:float ;
+    ex:text " of" .
+
+ex:Branch_4_9_1 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "24.74886703491211"^^ex:float ;
+    ex:text " had" .
+
+ex:Branch_4_9_2 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "23.623634338378906"^^ex:float ;
+    ex:text " was" .
+
+ex:Branch_4_9_3 a ex:Token ;
+    ex:iteration 4 ;
+    ex:perplexity_diff "21.92267608642578"^^ex:float ;
+    ex:text " and" .
+
