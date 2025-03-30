@@ -1,0 +1,6 @@
+Rewrite the following text in a new way while keeping the meaning, tone, and key details intact. 
+Do not simply paraphrase; instead, restructure sentences, use varied phrasing, and make it feel 
+naturally rewritten while keeping it recognizable as the same content. Ensure clarity and coherence. 
+It should be around the similar length to the original given text below by the way:
+
+[HUMAN TEXT GOES HERE]
