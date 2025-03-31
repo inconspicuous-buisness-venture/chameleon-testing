@@ -1,6 +1,3 @@
-Rewrite the following text in a new way while keeping the meaning, tone, and key details intact. 
-Do not simply paraphrase; instead, restructure sentences, use varied phrasing, and make it feel 
-naturally rewritten while keeping it recognizable as the same content. Ensure clarity and coherence. 
-It should be around the similar length to the original given text below by the way:
+Rewrite the following text in a new way while keeping the meaning, tone, and key details intact. Restructure sentences, and use varied phrasing as necessary to make it feel naturally rewritten while keeping it recognizable as the same content. Ensure clarity and coherence. DO NOT ADD TITLES, LABELS, HEADINGS, OR WORDS OTHER THAN REWRITING THE TEXT. This rewrite should be around the similar length to the original given text which is given below:
 
 [HUMAN TEXT GOES HERE]
