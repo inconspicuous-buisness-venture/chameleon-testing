@@ -70,7 +70,7 @@ def process_with_gemini(prompt, client):
     """Send the prompt to Gemini API and get the response."""
     try:
         response = client.models.generate_content(
-            model="gemini-2.0-flash", 
+            model="gemini-1.5-pro", 
             contents=prompt
         )
         return response.text.strip()
@@ -223,7 +223,7 @@ def prepare_for_next_iteration(current_output_csv):
 
 def main():
     # Initialize Gemini API client
-    api_key = "AIzaSyBNKM03kukcWRMaqGJKGE8w74BPKSpt-DY"
+    api_key = "AIzaSyC3l2HJFZIYvbrZE7jVZAn1qswWHhkC9kU"
     client = genai.Client(api_key=api_key)
     
     # Paths
