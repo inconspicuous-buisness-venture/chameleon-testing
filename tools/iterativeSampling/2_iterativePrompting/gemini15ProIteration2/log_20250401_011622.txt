@@ -1,0 +1,319 @@
+2025-04-01 01:16:22,391 - INFO - Initialized with 7 API keys
+2025-04-01 01:16:22,392 - INFO - 
+Starting iteration 1/10
+2025-04-01 01:16:22,393 - INFO - 
+========================================
+2025-04-01 01:16:22,393 - INFO - STARTING ITERATION 1
+2025-04-01 01:16:22,393 - INFO - ========================================
+2025-04-01 01:16:22,393 - INFO - Found 35 texts to process.
+2025-04-01 01:16:22,393 - INFO - 
+Processing batch 1/18...
+2025-04-01 01:16:22,393 - INFO - Starting batch processing for texts 1-2 of 35
+2025-04-01 01:16:22,393 - INFO - Processing text 1/35...
+2025-04-01 01:16:22,395 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:16:25,983 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:16:25,985 - INFO - AFC remote call 1 is done.
+2025-04-01 01:16:27,986 - INFO - Processing text 2/35...
+2025-04-01 01:16:27,986 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:16:31,120 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:16:31,121 - INFO - AFC remote call 1 is done.
+2025-04-01 01:16:31,122 - INFO - Batch processing complete. Took 8.73 seconds
+2025-04-01 01:16:31,122 - INFO - Batch 1 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:17:31,123 - INFO - 
+Processing batch 2/18...
+2025-04-01 01:17:31,123 - INFO - Starting batch processing for texts 3-4 of 35
+2025-04-01 01:17:31,123 - INFO - Processing text 3/35...
+2025-04-01 01:17:31,124 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:17:32,968 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:17:32,969 - INFO - AFC remote call 1 is done.
+2025-04-01 01:17:34,970 - INFO - Processing text 4/35...
+2025-04-01 01:17:34,970 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:17:36,443 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:17:36,444 - INFO - AFC remote call 1 is done.
+2025-04-01 01:17:36,444 - INFO - Batch processing complete. Took 5.32 seconds
+2025-04-01 01:17:36,445 - INFO - Batch 2 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:18:36,445 - INFO - 
+Processing batch 3/18...
+2025-04-01 01:18:36,445 - INFO - Starting batch processing for texts 5-6 of 35
+2025-04-01 01:18:36,445 - INFO - Processing text 5/35...
+2025-04-01 01:18:36,446 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:18:38,558 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:18:38,559 - INFO - AFC remote call 1 is done.
+2025-04-01 01:18:40,560 - INFO - Processing text 6/35...
+2025-04-01 01:18:40,560 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:18:42,405 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:18:42,406 - INFO - AFC remote call 1 is done.
+2025-04-01 01:18:42,406 - INFO - Batch processing complete. Took 5.96 seconds
+2025-04-01 01:18:42,407 - INFO - Batch 3 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:19:42,409 - INFO - 
+Processing batch 4/18...
+2025-04-01 01:19:42,409 - INFO - Starting batch processing for texts 7-8 of 35
+2025-04-01 01:19:42,409 - INFO - Processing text 7/35...
+2025-04-01 01:19:42,409 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:19:45,028 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:19:45,029 - INFO - AFC remote call 1 is done.
+2025-04-01 01:19:47,030 - INFO - Processing text 8/35...
+2025-04-01 01:19:47,030 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:19:48,653 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:19:48,654 - INFO - AFC remote call 1 is done.
+2025-04-01 01:19:48,654 - INFO - Batch processing complete. Took 6.25 seconds
+2025-04-01 01:19:48,654 - INFO - Batch 4 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:20:48,655 - INFO - 
+Processing batch 5/18...
+2025-04-01 01:20:48,655 - INFO - Starting batch processing for texts 9-10 of 35
+2025-04-01 01:20:48,655 - INFO - Processing text 9/35...
+2025-04-01 01:20:48,655 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:20:51,353 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:20:51,354 - INFO - AFC remote call 1 is done.
+2025-04-01 01:20:53,355 - INFO - Processing text 10/35...
+2025-04-01 01:20:53,355 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:20:55,361 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:20:55,362 - INFO - AFC remote call 1 is done.
+2025-04-01 01:20:55,362 - INFO - Batch processing complete. Took 6.71 seconds
+2025-04-01 01:20:55,362 - INFO - Batch 5 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:21:55,364 - INFO - 
+Processing batch 6/18...
+2025-04-01 01:21:55,364 - INFO - Starting batch processing for texts 11-12 of 35
+2025-04-01 01:21:55,365 - INFO - Processing text 11/35...
+2025-04-01 01:21:55,365 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:21:57,636 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:21:57,637 - INFO - AFC remote call 1 is done.
+2025-04-01 01:21:59,638 - INFO - Processing text 12/35...
+2025-04-01 01:21:59,638 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:22:02,286 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:22:02,287 - INFO - AFC remote call 1 is done.
+2025-04-01 01:22:02,287 - INFO - Batch processing complete. Took 6.92 seconds
+2025-04-01 01:22:02,287 - INFO - Batch 6 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:23:02,289 - INFO - 
+Processing batch 7/18...
+2025-04-01 01:23:02,289 - INFO - Starting batch processing for texts 13-14 of 35
+2025-04-01 01:23:02,289 - INFO - Processing text 13/35...
+2025-04-01 01:23:02,290 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:23:04,279 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:23:04,280 - INFO - AFC remote call 1 is done.
+2025-04-01 01:23:06,282 - INFO - Processing text 14/35...
+2025-04-01 01:23:06,282 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:23:08,270 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:23:08,271 - INFO - AFC remote call 1 is done.
+2025-04-01 01:23:08,271 - INFO - Batch processing complete. Took 5.98 seconds
+2025-04-01 01:23:08,271 - INFO - Batch 7 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:24:08,272 - INFO - 
+Processing batch 8/18...
+2025-04-01 01:24:08,272 - INFO - Starting batch processing for texts 15-16 of 35
+2025-04-01 01:24:08,272 - INFO - Processing text 15/35...
+2025-04-01 01:24:08,272 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:24:10,169 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:24:10,170 - INFO - AFC remote call 1 is done.
+2025-04-01 01:24:12,172 - INFO - Processing text 16/35...
+2025-04-01 01:24:12,172 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:24:14,624 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:24:14,625 - INFO - AFC remote call 1 is done.
+2025-04-01 01:24:14,626 - INFO - Batch processing complete. Took 6.35 seconds
+2025-04-01 01:24:14,626 - INFO - Batch 8 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:25:14,627 - INFO - 
+Processing batch 9/18...
+2025-04-01 01:25:14,627 - INFO - Starting batch processing for texts 17-18 of 35
+2025-04-01 01:25:14,627 - INFO - Processing text 17/35...
+2025-04-01 01:25:14,627 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:25:21,609 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:25:21,610 - INFO - AFC remote call 1 is done.
+2025-04-01 01:25:23,612 - INFO - Processing text 18/35...
+2025-04-01 01:25:23,612 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:25:25,076 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:25:25,077 - INFO - AFC remote call 1 is done.
+2025-04-01 01:25:25,077 - INFO - Batch processing complete. Took 10.45 seconds
+2025-04-01 01:25:25,077 - INFO - Batch 9 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:26:25,078 - INFO - 
+Processing batch 10/18...
+2025-04-01 01:26:25,078 - INFO - Starting batch processing for texts 19-20 of 35
+2025-04-01 01:26:25,078 - INFO - Processing text 19/35...
+2025-04-01 01:26:25,078 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:26:26,445 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:26:26,446 - INFO - AFC remote call 1 is done.
+2025-04-01 01:26:28,448 - INFO - Processing text 20/35...
+2025-04-01 01:26:28,448 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:26:31,666 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:26:31,668 - INFO - AFC remote call 1 is done.
+2025-04-01 01:26:31,668 - INFO - Batch processing complete. Took 6.59 seconds
+2025-04-01 01:26:31,668 - INFO - Batch 10 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:27:31,669 - INFO - 
+Processing batch 11/18...
+2025-04-01 01:27:31,669 - INFO - Starting batch processing for texts 21-22 of 35
+2025-04-01 01:27:31,669 - INFO - Processing text 21/35...
+2025-04-01 01:27:31,669 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:27:34,042 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:27:34,043 - INFO - AFC remote call 1 is done.
+2025-04-01 01:27:36,044 - INFO - Processing text 22/35...
+2025-04-01 01:27:36,044 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:27:38,097 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:27:38,098 - INFO - AFC remote call 1 is done.
+2025-04-01 01:27:38,098 - INFO - Batch processing complete. Took 6.43 seconds
+2025-04-01 01:27:38,098 - INFO - Batch 11 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:28:38,100 - INFO - 
+Processing batch 12/18...
+2025-04-01 01:28:38,100 - INFO - Starting batch processing for texts 23-24 of 35
+2025-04-01 01:28:38,100 - INFO - Processing text 23/35...
+2025-04-01 01:28:38,100 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:28:40,557 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:28:40,558 - INFO - AFC remote call 1 is done.
+2025-04-01 01:28:42,559 - INFO - Processing text 24/35...
+2025-04-01 01:28:42,559 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:28:45,542 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:28:45,543 - INFO - AFC remote call 1 is done.
+2025-04-01 01:28:45,543 - INFO - Batch processing complete. Took 7.44 seconds
+2025-04-01 01:28:45,543 - INFO - Batch 12 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:29:45,545 - INFO - 
+Processing batch 13/18...
+2025-04-01 01:29:45,545 - INFO - Starting batch processing for texts 25-26 of 35
+2025-04-01 01:29:45,545 - INFO - Processing text 25/35...
+2025-04-01 01:29:45,546 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:29:47,985 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:29:47,986 - INFO - AFC remote call 1 is done.
+2025-04-01 01:29:49,987 - INFO - Processing text 26/35...
+2025-04-01 01:29:49,987 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:29:52,920 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:29:52,922 - INFO - AFC remote call 1 is done.
+2025-04-01 01:29:52,922 - INFO - Batch processing complete. Took 7.38 seconds
+2025-04-01 01:29:52,922 - INFO - Batch 13 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:30:52,924 - INFO - 
+Processing batch 14/18...
+2025-04-01 01:30:52,924 - INFO - Starting batch processing for texts 27-28 of 35
+2025-04-01 01:30:52,924 - INFO - Processing text 27/35...
+2025-04-01 01:30:52,924 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:30:55,390 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:30:55,391 - INFO - AFC remote call 1 is done.
+2025-04-01 01:30:57,392 - INFO - Processing text 28/35...
+2025-04-01 01:30:57,392 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:31:00,217 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:31:00,218 - INFO - AFC remote call 1 is done.
+2025-04-01 01:31:00,219 - INFO - Batch processing complete. Took 7.29 seconds
+2025-04-01 01:31:00,219 - INFO - Batch 14 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:32:00,220 - INFO - 
+Processing batch 15/18...
+2025-04-01 01:32:00,220 - INFO - Starting batch processing for texts 29-30 of 35
+2025-04-01 01:32:00,220 - INFO - Processing text 29/35...
+2025-04-01 01:32:00,220 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:32:05,690 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:32:05,691 - INFO - AFC remote call 1 is done.
+2025-04-01 01:32:07,692 - INFO - Processing text 30/35...
+2025-04-01 01:32:07,692 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:32:09,873 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:32:09,873 - INFO - AFC remote call 1 is done.
+2025-04-01 01:32:09,874 - INFO - Batch processing complete. Took 9.65 seconds
+2025-04-01 01:32:09,874 - INFO - Batch 15 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:33:09,875 - INFO - 
+Processing batch 16/18...
+2025-04-01 01:33:09,875 - INFO - Starting batch processing for texts 31-32 of 35
+2025-04-01 01:33:09,875 - INFO - Processing text 31/35...
+2025-04-01 01:33:09,876 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:33:12,107 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:33:12,108 - INFO - AFC remote call 1 is done.
+2025-04-01 01:33:14,110 - INFO - Processing text 32/35...
+2025-04-01 01:33:14,110 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:33:16,236 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:33:16,237 - INFO - AFC remote call 1 is done.
+2025-04-01 01:33:16,237 - INFO - Batch processing complete. Took 6.36 seconds
+2025-04-01 01:33:16,238 - INFO - Batch 16 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:34:16,239 - INFO - 
+Processing batch 17/18...
+2025-04-01 01:34:16,239 - INFO - Starting batch processing for texts 33-34 of 35
+2025-04-01 01:34:16,239 - INFO - Processing text 33/35...
+2025-04-01 01:34:16,239 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:34:20,299 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:34:20,300 - INFO - AFC remote call 1 is done.
+2025-04-01 01:34:22,301 - INFO - Processing text 34/35...
+2025-04-01 01:34:22,301 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:34:24,291 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:34:24,292 - INFO - AFC remote call 1 is done.
+2025-04-01 01:34:24,292 - INFO - Batch processing complete. Took 8.05 seconds
+2025-04-01 01:34:24,292 - INFO - Batch 17 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:35:24,294 - INFO - 
+Processing batch 18/18...
+2025-04-01 01:35:24,294 - INFO - Starting batch processing for texts 35-35 of 35
+2025-04-01 01:35:24,294 - INFO - Processing text 35/35...
+2025-04-01 01:35:24,294 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:35:27,746 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:35:27,747 - INFO - AFC remote call 1 is done.
+2025-04-01 01:35:27,747 - INFO - Batch processing complete. Took 3.45 seconds
+2025-04-01 01:35:27,747 - INFO - Iteration 1 completed successfully!
+2025-04-01 01:35:27,749 - INFO - Saved interim output for iteration 1 to .\gemini15ProIteration2\iterations_output_step1.json
+2025-04-01 01:35:27,749 - INFO - API Key Usage after iteration 1:
+2025-04-01 01:35:27,750 - INFO -   API Key 1: {'requests': 35, 'exhausted': False} requests
+2025-04-01 01:35:27,750 - INFO -   API Key 2: {'requests': 0, 'exhausted': False} requests
+2025-04-01 01:35:27,750 - INFO -   API Key 3: {'requests': 0, 'exhausted': False} requests
+2025-04-01 01:35:27,750 - INFO -   API Key 4: {'requests': 0, 'exhausted': False} requests
+2025-04-01 01:35:27,750 - INFO -   API Key 5: {'requests': 0, 'exhausted': False} requests
+2025-04-01 01:35:27,751 - INFO -   API Key 6: {'requests': 0, 'exhausted': False} requests
+2025-04-01 01:35:27,751 - INFO -   API Key 7: {'requests': 0, 'exhausted': False} requests
+2025-04-01 01:35:27,751 - INFO - 
+Starting iteration 2/10
+2025-04-01 01:35:27,751 - INFO - 
+========================================
+2025-04-01 01:35:27,751 - INFO - STARTING ITERATION 2
+2025-04-01 01:35:27,752 - INFO - ========================================
+2025-04-01 01:35:27,752 - INFO - Found 35 texts to process.
+2025-04-01 01:35:27,752 - INFO - 
+Processing batch 1/18...
+2025-04-01 01:35:27,752 - INFO - Starting batch processing for texts 1-2 of 35
+2025-04-01 01:35:27,752 - INFO - Processing text 1/35...
+2025-04-01 01:35:27,753 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:35:30,768 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:35:30,769 - INFO - AFC remote call 1 is done.
+2025-04-01 01:35:32,770 - INFO - Processing text 2/35...
+2025-04-01 01:35:32,770 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:35:36,237 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:35:36,238 - INFO - AFC remote call 1 is done.
+2025-04-01 01:35:36,238 - INFO - Batch processing complete. Took 8.49 seconds
+2025-04-01 01:35:36,238 - INFO - Batch 1 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:36:36,239 - INFO - 
+Processing batch 2/18...
+2025-04-01 01:36:36,239 - INFO - Starting batch processing for texts 3-4 of 35
+2025-04-01 01:36:36,239 - INFO - Processing text 3/35...
+2025-04-01 01:36:36,240 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:36:38,116 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:36:38,117 - INFO - AFC remote call 1 is done.
+2025-04-01 01:36:40,118 - INFO - Processing text 4/35...
+2025-04-01 01:36:40,118 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:36:41,701 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:36:41,702 - INFO - AFC remote call 1 is done.
+2025-04-01 01:36:41,702 - INFO - Batch processing complete. Took 5.46 seconds
+2025-04-01 01:36:41,702 - INFO - Batch 2 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:37:41,704 - INFO - 
+Processing batch 3/18...
+2025-04-01 01:37:41,704 - INFO - Starting batch processing for texts 5-6 of 35
+2025-04-01 01:37:41,704 - INFO - Processing text 5/35...
+2025-04-01 01:37:41,704 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:37:43,717 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:37:43,718 - INFO - AFC remote call 1 is done.
+2025-04-01 01:37:45,719 - INFO - Processing text 6/35...
+2025-04-01 01:37:45,719 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:37:47,376 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:37:47,377 - INFO - AFC remote call 1 is done.
+2025-04-01 01:37:47,377 - INFO - Batch processing complete. Took 5.67 seconds
+2025-04-01 01:37:47,377 - INFO - Batch 3 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:38:47,378 - INFO - 
+Processing batch 4/18...
+2025-04-01 01:38:47,378 - INFO - Starting batch processing for texts 7-8 of 35
+2025-04-01 01:38:47,378 - INFO - Processing text 7/35...
+2025-04-01 01:38:47,379 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:38:50,310 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:38:50,311 - INFO - AFC remote call 1 is done.
+2025-04-01 01:38:52,313 - INFO - Processing text 8/35...
+2025-04-01 01:38:52,313 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:38:54,278 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:38:54,279 - INFO - AFC remote call 1 is done.
+2025-04-01 01:38:54,279 - INFO - Batch processing complete. Took 6.90 seconds
+2025-04-01 01:38:54,279 - INFO - Batch 4 complete. Waiting 60 seconds before next batch...
+2025-04-01 01:39:54,281 - INFO - 
+Processing batch 5/18...
+2025-04-01 01:39:54,281 - INFO - Starting batch processing for texts 9-10 of 35
+2025-04-01 01:39:54,281 - INFO - Processing text 9/35...
+2025-04-01 01:39:54,282 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:39:56,770 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:39:56,771 - INFO - AFC remote call 1 is done.
+2025-04-01 01:39:58,771 - INFO - Processing text 10/35...
+2025-04-01 01:39:58,771 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 01:40:00,985 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-04-01 01:40:00,986 - INFO - AFC remote call 1 is done.
+2025-04-01 01:40:00,987 - INFO - Batch processing complete. Took 6.70 seconds
+2025-04-01 01:40:00,987 - INFO - Batch 5 complete. Waiting 60 seconds before next batch...
