@@ -73,6 +73,9 @@ def check_text_with_roberta(text):
         # Return as percentage for consistency with previous code
         prob_gpt_generated = (1 - probabilities[0][1].item()) * 100
         
+        # Round to 2 decimal places
+        prob_gpt_generated = round(prob_gpt_generated, 2)
+        
         return prob_gpt_generated
     except Exception as e:
         logging.error(f"RoBERTa detection error: {e}")
@@ -106,7 +109,11 @@ def save_temp_results(data, temp_file, final=False):
         logging.error(f"Error saving temporary results: {e}")
         return False
 
-def process_iterations_data(input_file, output_file):
+def process_iterations_data(input_file, output_file=None):
+    """
+    Process data and append RoBERTa scores.
+    If output_file is None, will overwrite the input_file.
+    """
     try:
         # Check if input file exists
         if not os.path.exists(input_file):
@@ -114,9 +121,15 @@ def process_iterations_data(input_file, output_file):
             print(f"Error: Input file not found: {input_file}")
             return
         
+        # If no output file is specified, modify the input file directly
+        if output_file is None:
+            output_file = input_file
+            logging.info(f"Will modify input file directly: {input_file}")
+            print(f"Will modify input file directly: {input_file}")
+        
         # Create output directory if it doesn't exist
         output_dir = os.path.dirname(output_file)
-        if output_dir and not os.path.exists(output_dir):  # Fix: changed os.exists to os.path.exists
+        if output_dir and not os.path.exists(output_dir):
             os.makedirs(output_dir, exist_ok=True)
             logging.info(f"Created output directory: {output_dir}")
         
@@ -156,7 +169,7 @@ def process_iterations_data(input_file, output_file):
             original_score = check_text_with_roberta(original_text)
             logging.info(f"  Original text score: {original_score}")
             
-            # Add metrics to the entry - check if it already exists
+            # Add metrics to the entry - create structure if it doesn't exist
             if 'original_text_metrics' not in entry:
                 entry['original_text_metrics'] = {
                     "detection_scores": {
@@ -167,6 +180,8 @@ def process_iterations_data(input_file, output_file):
                 # Add or update the roberta score in the existing detection_scores
                 if "detection_scores" not in entry['original_text_metrics']:
                     entry['original_text_metrics']["detection_scores"] = {}
+                
+                # This ensures we append to existing scores rather than overwriting
                 entry['original_text_metrics']["detection_scores"]["roberta"] = original_score
             
             # Save after each original text processing
@@ -180,7 +195,7 @@ def process_iterations_data(input_file, output_file):
             summarized_score = check_text_with_roberta(summarized_text)
             logging.info(f"  Summarized text score: {summarized_score}")
             
-            # Add metrics to the entry - check if it already exists
+            # Add metrics to the entry - create structure if it doesn't exist
             if 'summarized_text_metrics' not in entry:
                 entry['summarized_text_metrics'] = {
                     "detection_scores": {
@@ -191,6 +206,8 @@ def process_iterations_data(input_file, output_file):
                 # Add or update the roberta score in the existing detection_scores
                 if "detection_scores" not in entry['summarized_text_metrics']:
                     entry['summarized_text_metrics']["detection_scores"] = {}
+                
+                # This ensures we append to existing scores rather than overwriting
                 entry['summarized_text_metrics']["detection_scores"]["roberta"] = summarized_score
             
             # Save after summarized text processing
@@ -222,6 +239,8 @@ def process_iterations_data(input_file, output_file):
                     # Add or update the detection score
                     if 'detection_scores' not in iteration:
                         iteration['detection_scores'] = {}
+                    
+                    # This ensures we append to existing scores rather than overwriting
                     iteration['detection_scores']["roberta"] = score
                 else:
                     # Handle missing rewritten_text (error cases)
@@ -234,6 +253,8 @@ def process_iterations_data(input_file, output_file):
                     # Add or update the detection score
                     if 'detection_scores' not in iteration:
                         iteration['detection_scores'] = {}
+                    
+                    # This ensures we append to existing scores rather than overwriting
                     iteration['detection_scores']["roberta"] = None
                 
                 # Save after each iteration
@@ -249,6 +270,14 @@ def process_iterations_data(input_file, output_file):
         
         # Save the processed data to the output file
         logging.info(f"All entries processed. Saving final results to: {output_file}")
+        
+        # Create a backup of the original input file if we're overwriting it
+        if input_file == output_file:
+            backup_file = f"{input_file}.bak.{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+            logging.info(f"Creating backup of original file: {backup_file}")
+            shutil.copy2(input_file, backup_file)
+            print(f"Backup of original file created at: {backup_file}")
+        
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
         
@@ -256,7 +285,7 @@ def process_iterations_data(input_file, output_file):
         final_temp = os.path.join(temp_dir, f"final_results_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")
         shutil.copy2(temp_file, final_temp)
         
-        logging.info(f"Processing complete. Results saved to {output_file} and {final_temp}")
+        logging.info(f"Processing complete. Results saved to {output_file}")
         print(f"Processing complete! Results saved to {output_file}")
         print(f"Log file created at: {log_file}")
         print(f"Backup of final results saved to: {final_temp}")
@@ -295,12 +324,20 @@ if __name__ == "__main__":
     default_input = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
                             "2_iterativePrompting", "gemini2FlashIteration", "gemini2FlashIterations.json")
     
-    default_output = os.path.join(os.path.dirname(os.path.abspath(__file__)), 
-                             "gemini2FlashIterationsWithRoBERTaScores.json")
+    # Get input file path
+    input_path = get_file_path("Enter the path to the JSON file", default_input, must_exist=True)
     
-    # Get input and output file paths from user
-    input_path = get_file_path("Enter the path to the input JSON file", default_input, must_exist=True)
-    output_path = get_file_path("Enter the path for the output JSON file", default_output)
+    # Ask if user wants to modify directly or create a new file
+    modify_directly = input("Do you want to modify the input file directly? (y/n) [default: y]: ").strip().lower()
+    
+    if modify_directly == "" or modify_directly.startswith("y"):
+        output_path = None  # Signal to modify input file directly
+        print(f"Will modify the input file directly: {input_path}")
+    else:
+        # Get output file path
+        default_output = os.path.join(os.path.dirname(input_path), 
+                             f"{os.path.splitext(os.path.basename(input_path))[0]}_with_roberta.json")
+        output_path = get_file_path("Enter the path for the output JSON file", default_output)
     
     # Process the data
     logging.info("Starting RoBERTa detection process")
