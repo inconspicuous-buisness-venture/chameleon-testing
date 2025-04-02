@@ -2,3 +2,5 @@
 /iterative/__pycache__/
 AI_Human_Kaggle_Dataset.csv
 test.json
+node_modules
+package-lock.json
