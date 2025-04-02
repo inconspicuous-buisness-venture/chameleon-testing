@@ -1,8 +1,0 @@
-2025-04-01 21:06:29 - INFO - Loading RoBERTa model and tokenizer...
-2025-04-01 21:06:44 - INFO - Starting RoBERTa detection process
-2025-04-01 21:06:44 - ERROR - Error processing data: module 'os' has no attribute 'exists'
-Traceback (most recent call last):
-  File "C:\Users\Zach\GHRepos\chameleon-org\chameleon-testing\tools\iterativeSampling\3_checkingHumanity\CheckRoBERTa.py", line 119, in process_iterations_data
-    if output_dir and not os.exists(output_dir):
-                          ^^^^^^^^^
-AttributeError: module 'os' has no attribute 'exists'
