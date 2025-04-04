@@ -34,20 +34,33 @@ def process_file(file_path):
     
     return original_scores, summarized_scores, iterations_data
 
+def calculate_best_fit(x_data, y_data):
+    """Calculate the line of best fit for the data points."""
+    # Skip if we don't have enough data
+    if len(x_data) < 2 or len(y_data) < 2:
+        return None, None, None
+    
+    # Calculate the line of best fit using linear regression
+    slope, intercept, r_value, p_value, std_err = stats.linregress(x_data, y_data)
+    
+    # Generate points for the line
+    x_fit = np.array([min(x_data), max(x_data)])
+    y_fit = slope * x_fit + intercept
+    
+    return x_fit, y_fit, r_value**2  # Return r-squared value
+
 def plot_scores(fig, axes, datasets, titles):
     for i, (original_scores, summarized_scores, iterations_data) in enumerate(datasets):
         ax = axes[i]
         positions = [1, 2]
         labels = ["Original", "Summarized"]
         data_to_plot = [original_scores, summarized_scores]
-        iteration_labels = []  # Labels for Kendall's tau test (excluding 'Original')
         pos_index = 3
         
         for iteration_num, scores in sorted(iterations_data.items()):
             positions.append(pos_index)
             labels.append(f"Iter {iteration_num}")
             data_to_plot.append(scores)
-            iteration_labels.extend([pos_index] * len(scores))  # Track positions for Kendall's tau
             pos_index += 1
         
         ax.boxplot(data_to_plot, positions=positions, widths=0.6, patch_artist=False)
@@ -58,15 +71,19 @@ def plot_scores(fig, axes, datasets, titles):
         ax.grid(axis='y', linestyle='--', alpha=0.7)
         ax.axvline(x=1.5, color='black', linestyle='-', linewidth=0.8)
         
-        # Perform Kendall's Tau test excluding the first 'Original' x-tick
-        scores_flat = [score for group in data_to_plot[1:] for score in group]  # Exclude Original
-        iter_labels_flat = [2] * len(data_to_plot[1]) + iteration_labels  # Start from Summarized (2)
+        # Add line of best fit
+        x_data = []
+        y_data = []
+        # Start from summarized (position 2) for clearer trend analysis
+        for idx, (position, scores_group) in enumerate(zip(positions[1:], data_to_plot[1:])):
+            x_data.extend([position] * len(scores_group))
+            y_data.extend(scores_group)
         
-        if len(set(iter_labels_flat)) > 1:
-            tau, p_value = stats.kendalltau(iter_labels_flat, scores_flat)
-            ax.text(0.95, 0.95, f"p = {p_value:.3f}", transform=ax.transAxes, 
-                    verticalalignment='top', horizontalalignment='right', fontsize=12, 
-                    bbox=dict(facecolor='white', alpha=0.8))
+        if x_data and y_data:
+            x_fit, y_fit, r_squared = calculate_best_fit(x_data, y_data)
+            if x_fit is not None:
+                ax.plot(x_fit, y_fit, 'r--', linewidth=2, label=f'Best fit (R²={r_squared:.3f})')
+                ax.legend(loc='upper right')
 
 # Function to process coherence data files
 def process_coherence_file(file_path):
@@ -113,14 +130,12 @@ def plot_coherence_graphs():
         positions = [1]  # Start with position 1 for summarized
         labels = ["Summarized"]
         data_to_plot = [summarized_scores]
-        iteration_labels = []
         pos_index = 2
         
         for iteration_num, scores in sorted(iterations_data.items()):
             positions.append(pos_index)
             labels.append(f"Iter {iteration_num}")
             data_to_plot.append(scores)
-            iteration_labels.extend([pos_index] * len(scores))
             pos_index += 1
         
         ax.boxplot(data_to_plot, positions=positions, widths=0.6, patch_artist=False)
@@ -130,18 +145,18 @@ def plot_coherence_graphs():
         ax.set_title(titles[i])
         ax.grid(axis='y', linestyle='--', alpha=0.7)
         
-        # Perform Kendall's Tau test if there's enough data
-        if len(data_to_plot) > 1:  # Make sure we have more than just summarized data
-            scores_flat = [score for group in data_to_plot for score in group]
-            iter_labels_flat = [1] * len(data_to_plot[0])  # Start with summarized (1)
-            for idx, group in enumerate(data_to_plot[1:], start=2):  # Add iteration labels
-                iter_labels_flat.extend([idx] * len(group))
-            
-            if len(set(iter_labels_flat)) > 1 and len(scores_flat) > 1:
-                tau, p_value = stats.kendalltau(iter_labels_flat, scores_flat)
-                ax.text(0.95, 0.95, f"p = {p_value:.3f}", transform=ax.transAxes, 
-                        verticalalignment='top', horizontalalignment='right', fontsize=12, 
-                        bbox=dict(facecolor='white', alpha=0.8))
+        # Add line of best fit
+        x_data = []
+        y_data = []
+        for idx, (position, scores_group) in enumerate(zip(positions, data_to_plot)):
+            x_data.extend([position] * len(scores_group))
+            y_data.extend(scores_group)
+        
+        if x_data and y_data:
+            x_fit, y_fit, r_squared = calculate_best_fit(x_data, y_data)
+            if x_fit is not None:
+                ax.plot(x_fit, y_fit, 'r--', linewidth=2, label=f'Best fit (R²={r_squared:.3f})')
+                ax.legend(loc='upper right')
 
     plt.tight_layout()
     plt.show()
