@@ -18,8 +18,11 @@
   #v(0.4em)
   #text(size: 11pt)[A technical report on measuring text quality and the limits of detection under adversarial rewriting]
   #v(0.8em)
-  #text(size: 11pt, weight: "bold")[Amarnath S. Patel]
-  #v(0.2em)
+  #text(size: 11pt, weight: "bold")[
+    Alexander Castronovo · Jossaya Camille · Makai Pindell\
+    Amarnath S. Patel · Thandi Menelas · Zach Lopez
+  ]
+  #v(0.3em)
   #text(size: 10pt)[
     Grant-Funded AI Safety Research Project — Florida Atlantic University\
     Supervisor: Tucker Hindle · 2025
