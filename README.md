@@ -1,5 +1,7 @@
 # Chameleon Testing
 
+📄 **Technical report:** [Coherence and Detection Approaches for Identifying AI-Generated Text](report/ai-safety-report.pdf) ([source](report/ai-safety-report.typ)) — a written summary of the methods and findings below.
+
 Ok so basically we've been moving pretty fast so I made a bunch of notebooks to show the summaries of our information. We can document **existing product research** [here](research.md) for humanizers, and all the elements that are important when measuring reinforcement are contained within a series of notebooks. 
 
 🌉 **Coherence**: I implemented two different sections of coherence, first testing a series of [basic coherence measurements](coherence/basic/) (none of which worked). 
